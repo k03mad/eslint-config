@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-k03mad",
+  "version": "0.0.2",
+  "description": "My ESLint config",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "maintainers": [
+    "Kirill Molchanov <k03.mad@gmail.com"
+  ],
+  "repository": "k03mad/eslint-config-k03mad",
+  "peerDependencies": {
+    "eslint": ">=4.9.0",
+    "eslint-plugin-const-case": ">=1.0.1",
+    "eslint-plugin-node": ">=5.2.0",
+    "eslint-plugin-promise": ">=3.6.0"
+  },
+  "license": "MIT"
+}
