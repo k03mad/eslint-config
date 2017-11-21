@@ -55,6 +55,7 @@ module.exports = {
         'for-direction': 'error',
         'func-call-spacing': 'error',
         'func-names': ['error', 'never'],
+        'func-style': ['error', 'expression'],
         'generator-star-spacing': 'error',
         'global-require': 'error',
         'handle-callback-err': 'error',
