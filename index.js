@@ -59,6 +59,7 @@ module.exports = {
         'generator-star-spacing': 'error',
         'global-require': 'error',
         'handle-callback-err': 'error',
+        'implicit-arrow-linebreak': 'error',
         'indent': ['error', 4, {'SwitchCase': 1, 'MemberExpression': 1}],
         'key-spacing': 'error',
         'keyword-spacing': 'error',
