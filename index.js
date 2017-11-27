@@ -30,6 +30,8 @@ module.exports = {
         'promise/catch-or-return': 'error',
         'promise/no-return-wrap': 'error',
         'promise/param-names': 'error',
+        'promise/prefer-await-to-callbacks': 'error',
+        'promise/prefer-await-to-then': 'error',
         // eslint
         'array-bracket-spacing': 'error',
         'array-callback-return': 'error',
