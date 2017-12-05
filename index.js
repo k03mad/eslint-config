@@ -153,6 +153,7 @@ module.exports = {
         'operator-assignment': 'error',
         'operator-linebreak': ['error', 'before'],
         'padded-blocks': ['error', {'classes': 'always', 'switches': 'never'}],
+        'padding-line-between-statements': ['error', {blankLine: 'always', prev: '*', next: 'multiline-block-like'}, {blankLine: 'always', prev: 'multiline-block-like', next: '*'}, {blankLine: 'always', prev: 'cjs-import', next: '*'}, {blankLine: 'never', prev: 'cjs-import', next: 'cjs-import'}],
         'prefer-arrow-callback': 'error',
         'prefer-const': 'error',
         'prefer-destructuring': ['error', {'array': false}],
