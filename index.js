@@ -58,7 +58,6 @@ module.exports = {
         'func-names': ['error', 'never'],
         'func-style': ['error', 'expression'],
         'generator-star-spacing': 'error',
-        'global-require': 'error',
         'handle-callback-err': 'error',
         'implicit-arrow-linebreak': 'error',
         'indent': ['error', 4, {'SwitchCase': 1, 'MemberExpression': 1}],
