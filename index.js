@@ -34,7 +34,7 @@ module.exports = {
         // eslint
         'array-bracket-spacing': 'error',
         'array-callback-return': 'error',
-        'arrow-body-style': 'off',
+        'arrow-body-style': ['error', 'as-needed'],
         'arrow-parens': ['error', 'as-needed'],
         'arrow-spacing': 'error',
         'block-scoped-var': 'error',
