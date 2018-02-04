@@ -168,7 +168,7 @@ module.exports = {
         'semi-spacing': 'error',
         'semi-style': 'error',
         'sort-imports': ['error', {'ignoreCase': true}],
-        'sort-keys': 'error',
+        'sort-keys': 'off',
         'sort-vars': 'error',
         'space-before-blocks': 'error',
         'space-before-function-paren': ['error', {'anonymous': 'never', 'named': 'never', 'asyncArrow': 'always'}],
