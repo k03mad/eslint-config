@@ -1,5 +1,3 @@
-ESLint config that I use at my repos
-
 # Installation
 
 ```(bash)
