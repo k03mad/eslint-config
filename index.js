@@ -44,7 +44,7 @@ module.exports = {
         'brace-style': 'error',
         'callback-return': 'error',
         'camelcase': ['error', {'properties': 'never'}],
-        'comma-dangle': 'always-multiline',
+        'comma-dangle': ['error', 'always-multiline'],
         'comma-spacing': 'error',
         'comma-style': 'error',
         'computed-property-spacing': 'error',
