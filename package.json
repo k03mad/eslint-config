@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-k03mad",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "My ESLint config",
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
   "maintainers": [
-    "Kirill Molchanov <k03.mad@gmail.com"
+    "Kirill Molchanov <k03.mad@gmail.com>"
   ],
   "repository": "k03mad/eslint-config-k03mad",
   "peerDependencies": {
