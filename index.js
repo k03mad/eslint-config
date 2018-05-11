@@ -35,7 +35,7 @@ module.exports = {
         'promise/prefer-await-to-then': 'error',
         'promise/valid-params': 'error',
         // unicorn
-        'unicorn/catch-error-name': ['error', {'name': 'ex'}],
+        'unicorn/catch-error-name': ['error', {'name': 'err'}],
         'unicorn/custom-error-definition': 'error',
         'unicorn/error-message': 'error',
         'unicorn/escape-case': 'error',
