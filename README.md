@@ -6,5 +6,6 @@ npm i --save-dev \
   eslint-config-k03mad \
   eslint-plugin-node \
   eslint-plugin-promise \
-  eslint-plugin-const-case
+  eslint-plugin-const-case \
+  eslint-plugin-unicorn
 ```

@@ -14,7 +14,8 @@ module.exports = {
     'plugins': [
         'const-case',
         'node',
-        'promise'
+        'promise',
+        'unicorn'
     ],
     'rules': {
         // const-case
@@ -33,6 +34,27 @@ module.exports = {
         'promise/param-names': 'error',
         'promise/prefer-await-to-then': 'error',
         'promise/valid-params': 'error',
+        // unicorn
+        'unicorn/catch-error-name': ['error', {'name': 'ex'}],
+        'unicorn/explicit-length-check': 'error',
+        'unicorn/no-abusive-eslint-disable': 'error',
+        'unicorn/throw-new-error': 'error',
+        'unicorn/number-literal-case': 'error',
+        'unicorn/escape-case': 'error',
+        'unicorn/no-array-instanceof': 'error',
+        'unicorn/no-new-buffer': 'error',
+        'unicorn/no-hex-escape': 'error',
+        'unicorn/custom-error-definition': 'error',
+        'unicorn/prefer-starts-ends-with': 'error',
+        'unicorn/prefer-type-error': 'error',
+        'unicorn/no-fn-reference-in-iterator': 'error',
+        'unicorn/import-index': 'error',
+        'unicorn/new-for-builtins': 'error',
+        'unicorn/regex-shorthand': 'error',
+        'unicorn/prefer-spread': 'error',
+        'unicorn/error-message': 'error',
+        'unicorn/no-unsafe-regex': 'error',
+        'unicorn/prefer-add-event-listener': 'error',
         // eslint
         'array-bracket-spacing': 'error',
         'array-callback-return': 'error',
