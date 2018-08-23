@@ -99,6 +99,7 @@ module.exports = {
         'no-compare-neg-zero': 'error',
         'no-confusing-arrow': 'error',
         'no-console': 'off',
+        'no-continue': 'off',
         'no-div-regex': 'error',
         'no-duplicate-imports': 'error',
         'no-else-return': 'error',
