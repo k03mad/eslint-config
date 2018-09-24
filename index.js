@@ -171,7 +171,7 @@ module.exports = {
         'object-curly-spacing': 'error',
         'object-shorthand': ['error', 'properties'],
         'one-var-declaration-per-line': 'error',
-        'one-var': ['error', 'never'],
+        'one-var': ['error', {'uninitialized': 'always'}],
         'operator-assignment': 'error',
         'operator-linebreak': ['error', 'before'],
         'padded-blocks': ['error', {'classes': 'always', 'switches': 'never'}],
