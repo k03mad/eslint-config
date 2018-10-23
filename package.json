@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-k03mad",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "My ESLint config",
   "keywords": [
     "eslint",
