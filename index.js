@@ -203,7 +203,7 @@ module.exports = {
         'switch-colon-spacing': 'error',
         'template-curly-spacing': 'error',
         'template-tag-spacing': ['error', 'never'],
-        'valid-jsdoc': ['error', {'requireReturnDescription': false, 'requireParamDescription': true, 'matchDescription': '.+', 'requireParamType': true, 'requireReturnType': true, 'requireReturn': false, 'prefer': {'arg': 'param', 'argument': 'param', 'class': 'class', 'return': 'returns', 'virtual': 'abstract'}, 'preferType': {'Boolean': 'boolean', 'Number': 'number', 'object': 'Object', 'String': 'string'}}],
+        'valid-jsdoc': ['error', {'requireReturnDescription': false, 'requireParamDescription': true, 'matchDescription': '.+', 'requireParamType': true, 'requireReturnType': false, 'requireReturn': false, 'prefer': {'arg': 'param', 'argument': 'param', 'class': 'class', 'return': 'returns', 'virtual': 'abstract'}, 'preferType': {'Boolean': 'boolean', 'Number': 'number', 'object': 'Object', 'String': 'string'}}],
         'vars-on-top': 'error',
         'wrap-iife': ['error', 'any'],
         'yield-star-spacing': 'error',
