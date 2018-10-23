@@ -187,7 +187,7 @@ module.exports = {
         'radix': ['error', 'as-needed'],
         'require-await': 'error',
         'require-jsdoc': ['error', {'require': {'FunctionDeclaration': true, 'MethodDefinition': true, 'ClassDeclaration': true, 'ArrowFunctionExpression': true}}],
-        'valid-jsdoc': 'error',
+        'valid-jsdoc': ['error', {'requireReturnDescription': false}],
         'semi-spacing': 'error',
         'semi-style': 'error',
         'semi': 'error',
