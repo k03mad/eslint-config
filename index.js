@@ -27,6 +27,13 @@ module.exports = {
         'node/no-missing-require': 'error',
         'node/no-unsupported-features': 'error',
         'node/shebang': 'error',
+        'node/prefer-global/buffer': 'error',
+        'node/prefer-global/console': 'error',
+        'node/prefer-global/process': 'error',
+        'node/prefer-global/text-decoder': 'error',
+        'node/prefer-global/text-encoder': 'error',
+        'node/prefer-global/url-search-params': 'error',
+        'node/prefer-global/url': 'error',
         // promise
         'promise/catch-or-return': 'error',
         'promise/no-new-statics': 'error',
