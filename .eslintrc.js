@@ -112,6 +112,7 @@ module.exports = {
         'no-new-wrappers': 2,
         'no-new': 2,
         'no-octal-escape': 2,
+        'no-process-exit': 'off',
         'no-proto': 2,
         'no-return-assign': 2,
         'no-return-await': 2,
