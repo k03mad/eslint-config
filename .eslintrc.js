@@ -169,7 +169,7 @@ module.exports = {
         'switch-colon-spacing': 2,
         'template-curly-spacing': 2,
         'template-tag-spacing': 2,
-        'valid-jsdoc': [2, {'requireParamDescription': true, 'matchDescription': '.+', 'requireParamType': true, 'requireReturn': false, 'requireReturnType': true, 'prefer': {'arg': 'param', 'argument': 'param', 'class': 'class', 'return': 'return', 'virtual': 'abstract'}, 'preferType': {'Boolean': 'boolean', 'Number': 'number', 'object': 'Object', 'String': 'string'}}],
+        'valid-jsdoc': [2, {'requireParamDescription': true, 'matchDescription': '.+', 'requireParamType': true, 'requireReturn': false, 'requireReturnType': true, 'requireReturnDescription': false, 'prefer': {'arg': 'param', 'argument': 'param', 'class': 'class', 'return': 'return', 'virtual': 'abstract'}, 'preferType': {'Boolean': 'boolean', 'Number': 'number', 'object': 'Object', 'String': 'string'}}],
         'wrap-iife': 2,
         'yield-star-spacing': 2,
         'yoda': 2
