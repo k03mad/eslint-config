@@ -57,9 +57,11 @@ module.exports = {
         'camelcase': [2, {'properties': 'never', 'ignoreDestructuring': true}],
         'comma-dangle': [2, 'always-multiline'],
         'dot-location': [2, 'property'],
+        'func-names': [2, 'never'],
         'indent': [2, 4, {'SwitchCase': 1}],
         'lines-around-comment': [2, {'afterBlockComment': false, 'allowObjectEnd': false, 'allowBlockEnd': false, 'allowArrayEnd': false}],
         'no-empty': [2, {'allowEmptyCatch': true}],
+        'no-inner-declarations': [2, 'both'],
         'no-multiple-empty-lines': [2, {'max': 1, 'maxBOF': 0}],
         'one-var': [2, {'uninitialized': 'always'}],
         'operator-linebreak': [2, 'before'],
@@ -69,6 +71,7 @@ module.exports = {
         'quotes': [2, 'single'],
         'radix': [2, 'as-needed'],
         'require-jsdoc': [2, {'require': {'FunctionDeclaration': true, 'MethodDefinition': true, 'ClassDeclaration': true, 'ArrowFunctionExpression': true, 'FunctionExpression': false}}],
+        'space-before-function-paren': [2, {'anonymous': 'never', 'named': 'never', 'asyncArrow': 'always'}],
         'valid-jsdoc': [2, {'requireParamDescription': true, 'matchDescription': '.+', 'requireParamType': true, 'requireReturn': false, 'requireReturnType': true, 'requireReturnDescription': false, 'prefer': {'arg': 'param', 'argument': 'param', 'class': 'class', 'return': 'return', 'virtual': 'abstract'}, 'preferType': {'Boolean': 'boolean', 'Number': 'number', 'object': 'Object', 'String': 'string'}}],
 
         // eslint off
