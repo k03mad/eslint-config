@@ -4,23 +4,23 @@ module.exports = {
         'browser': true,
         'es6': true,
         'mocha': true,
-        'node': true
+        'node': true,
     },
     'extends': [
         'eslint:all',
         'plugin:node/recommended',
         'plugin:promise/recommended',
-        'plugin:unicorn/recommended'
+        'plugin:unicorn/recommended',
     ],
     'parserOptions': {
         'ecmaVersion': 9,
-        'sourceType': 'module'
+        'sourceType': 'module',
     },
     'plugins': [
         'const-case',
         'node',
         'promise',
-        'unicorn'
+        'unicorn',
     ],
     'rules': {
         // const-case
@@ -83,6 +83,7 @@ module.exports = {
         'id-length': 0,
         'init-declarations': 0,
         'max-len': 0,
+        'max-lines-per-function': 0,
         'max-params': 0,
         'max-statements': 0,
         'multiline-ternary': 0,
@@ -94,10 +95,12 @@ module.exports = {
         'no-param-reassign': 0,
         'no-plusplus': 0,
         'no-process-env': 0,
+        'no-process-exit': 0,
         'no-ternary': 0,
         'no-unused-expressions': 0,
         'object-property-newline': 0,
         'require-unicode-regexp': 0,
+        'wrap-regex': 0,
     }
 
 };
