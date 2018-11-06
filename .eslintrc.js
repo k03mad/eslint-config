@@ -86,6 +86,7 @@ module.exports = {
         'max-lines-per-function': 0,
         'max-params': 0,
         'max-statements': 0,
+        'multiline-comment-style': 0,
         'multiline-ternary': 0,
         'newline-per-chained-call': 0,
         'no-await-in-loop': 0,
