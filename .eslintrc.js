@@ -82,6 +82,7 @@ module.exports = {
         'guard-for-in': 0,
         'id-length': 0,
         'init-declarations': 0,
+        'max-depth': 0,
         'max-len': 0,
         'max-lines-per-function': 0,
         'max-params': 0,

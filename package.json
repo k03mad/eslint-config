@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-k03mad",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "My ESLint config",
   "keywords": [
     "eslint",
@@ -12,7 +12,7 @@
   "main": ".eslintrc.js",
   "repository": "k03mad/eslint-config-k03mad",
   "peerDependencies": {
-    "eslint": ">=5.8.0",
+    "eslint": ">=5.9.0",
     "eslint-plugin-const-case": ">=1.0.4",
     "eslint-plugin-node": ">=8.0.0",
     "eslint-plugin-promise": ">=4.0.1",
