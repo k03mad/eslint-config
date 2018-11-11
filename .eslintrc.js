@@ -21,6 +21,7 @@ module.exports = {
         'node',
         'optimize-regex',
         'promise',
+        'sort-requires',
         'unicorn',
     ],
     'rules': {
@@ -48,6 +49,9 @@ module.exports = {
         'promise/no-promise-in-callback': 2,
         'promise/no-return-in-finally': 2,
         'promise/prefer-await-to-then': 2,
+
+        // sort-requires
+        'sort-requires/sort-requires': 2,
 
         // unicorn
         'unicorn/catch-error-name': [2, {'name': 'err'}],

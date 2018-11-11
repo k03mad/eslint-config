@@ -14,5 +14,6 @@ npm i --save-dev \
   eslint-plugin-node \
   eslint-plugin-optimize-regex \
   eslint-plugin-promise \
+  eslint-plugin-sort-requires \
   eslint-plugin-unicorn
 ```
