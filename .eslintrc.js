@@ -19,6 +19,7 @@ module.exports = {
     'plugins': [
         'const-case',
         'node',
+        'optimize-regex',
         'promise',
         'unicorn',
     ],
@@ -36,6 +37,9 @@ module.exports = {
         'node/prefer-global/text-encoder': 2,
         'node/prefer-global/url-search-params': 2,
         'node/prefer-global/url': 2,
+
+        // optimize-regex
+        'optimize-regex/optimize-regex': 2,
 
         // promise
         'promise/no-callback-in-promise': 2,

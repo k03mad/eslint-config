@@ -12,6 +12,7 @@ npm i --save-dev \
   eslint-config-k03mad \
   eslint-plugin-const-case \
   eslint-plugin-node \
+  eslint-plugin-optimize-regex \
   eslint-plugin-promise \
   eslint-plugin-unicorn
 ```
