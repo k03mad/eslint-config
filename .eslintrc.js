@@ -48,7 +48,6 @@ module.exports = {
         'promise/no-new-statics': 2,
         'promise/no-promise-in-callback': 2,
         'promise/no-return-in-finally': 2,
-        'promise/prefer-await-to-then': 2,
 
         // sort-requires
         'sort-requires/sort-requires': 2,
