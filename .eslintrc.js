@@ -13,8 +13,7 @@ module.exports = {
         'plugin:unicorn/recommended',
     ],
     'parserOptions': {
-        'ecmaVersion': 9,
-        'sourceType': 'module',
+        'sourceType': 'script',
     },
     'plugins': [
         'const-case',
