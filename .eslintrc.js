@@ -17,6 +17,7 @@ module.exports = {
     },
     'plugins': [
         'const-case',
+        'jsdoc',
         'node',
         'optimize-regex',
         'promise',
@@ -26,6 +27,12 @@ module.exports = {
     'rules': {
         // const-case
         'const-case/uppercase': 2,
+
+        // optimize-regex
+        'optimize-regex/optimize-regex': 2,
+
+        // sort-requires
+        'sort-requires/sort-requires': 2,
 
         // node
         'node/exports-style': 2,
@@ -38,9 +45,6 @@ module.exports = {
         'node/prefer-global/url-search-params': 2,
         'node/prefer-global/url': 2,
 
-        // optimize-regex
-        'optimize-regex/optimize-regex': 2,
-
         // promise
         'promise/no-callback-in-promise': 2,
         'promise/no-nesting': 2,
@@ -48,15 +52,25 @@ module.exports = {
         'promise/no-promise-in-callback': 2,
         'promise/no-return-in-finally': 2,
 
-        // sort-requires
-        'sort-requires/sort-requires': 2,
-
         // unicorn
         'unicorn/catch-error-name': [2, {'name': 'err'}],
         'unicorn/custom-error-definition': 2,
         'unicorn/filename-case': 'off',
         'unicorn/no-fn-reference-in-iterator': 2,
         'unicorn/no-process-exit': 'off',
+
+        // jsdoc
+        'jsdoc/check-examples': 2,
+        'jsdoc/check-param-names': 2,
+        'jsdoc/check-tag-names': 2,
+        'jsdoc/check-types': 2,
+        'jsdoc/no-undefined-types': 2,
+        'jsdoc/require-param-description': 2,
+        'jsdoc/require-param-name': 2,
+        'jsdoc/require-param-type': 2,
+        'jsdoc/require-param': 2,
+        'jsdoc/require-returns-type': 2,
+        'jsdoc/valid-types': 2,
 
         // eslint modified
         'arrow-parens': [2, 'as-needed'],
@@ -76,9 +90,7 @@ module.exports = {
         'quote-props': [2, 'consistent-as-needed'],
         'quotes': [2, 'single'],
         'radix': [2, 'as-needed'],
-        'require-jsdoc': [2, {'require': {'FunctionDeclaration': true, 'MethodDefinition': true, 'ClassDeclaration': true, 'ArrowFunctionExpression': true, 'FunctionExpression': false}}],
         'space-before-function-paren': [2, {'anonymous': 'never', 'named': 'never', 'asyncArrow': 'always'}],
-        'valid-jsdoc': [2, {'requireParamDescription': true, 'matchDescription': '.+', 'requireParamType': true, 'requireReturn': false, 'requireReturnType': true, 'requireReturnDescription': false, 'prefer': {'arg': 'param', 'argument': 'param', 'class': 'class', 'return': 'return', 'virtual': 'abstract'}, 'preferType': {'Boolean': 'boolean', 'Number': 'number', 'object': 'Object', 'String': 'string'}}],
 
         // eslint off
         'array-element-newline': 0,
