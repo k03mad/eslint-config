@@ -60,12 +60,10 @@ module.exports = {
         'unicorn/no-process-exit': 'off',
 
         // jsdoc
-        'jsdoc/check-examples': 2,
         'jsdoc/check-param-names': 2,
         'jsdoc/check-tag-names': 2,
         'jsdoc/check-types': 2,
         'jsdoc/no-undefined-types': 2,
-        'jsdoc/require-param-description': 2,
         'jsdoc/require-param-name': 2,
         'jsdoc/require-param-type': 2,
         'jsdoc/require-param': 2,
