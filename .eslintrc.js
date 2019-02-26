@@ -94,6 +94,7 @@ module.exports = {
         // eslint off
         'array-element-newline': 0,
         'capitalized-comments': 0,
+        'complexity': 0,
         'function-paren-newline': 0,
         'global-require': 0,
         'guard-for-in': 0,
