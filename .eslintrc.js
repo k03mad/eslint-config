@@ -119,6 +119,7 @@ module.exports = {
         'no-ternary': 0,
         'no-unused-expressions': 0,
         'object-property-newline': 0,
+        'prefer-named-capture-group': 0,
         'require-unicode-regexp': 0,
         'sort-keys': 0,
         'wrap-regex': 0,
