@@ -75,6 +75,7 @@ module.exports = {
         'arrow-parens': [2, 'as-needed'],
         'camelcase': [2, {'properties': 'never', 'ignoreDestructuring': true}],
         'comma-dangle': [2, 'always-multiline'],
+        'curly': [2, 'multi-line'],
         'dot-location': [2, 'property'],
         'func-names': [2, 'never'],
         'indent': [2, 4, {'SwitchCase': 1}],
