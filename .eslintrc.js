@@ -59,6 +59,7 @@ module.exports = {
         'unicorn/no-fn-reference-in-iterator': 2,
         'unicorn/no-process-exit': 0,
         'unicorn/no-unused-properties': 2,
+        'unicorn/prevent-abbreviations': 0,
 
         // jsdoc
         'jsdoc/check-param-names': 2,
