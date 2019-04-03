@@ -75,7 +75,7 @@ module.exports = {
         // eslint modified
         'arrow-parens': [2, 'as-needed'],
         'camelcase': [2, {'properties': 'never', 'ignoreDestructuring': true}],
-        'comma-dangle': [2, 'always-multiline'],
+        'comma-dangle': [2, {'arrays': 'always-multiline', 'objects': 'always-multiline', 'imports': 'always-multiline', 'exports': 'always-multiline', 'functions': 'always-multiline'}],
         'dot-location': [2, 'property'],
         'func-names': [2, 'never'],
         'indent': [2, 4, {'SwitchCase': 1}],
