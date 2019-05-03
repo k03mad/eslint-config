@@ -44,6 +44,8 @@ module.exports = {
         'node/prefer-global/text-encoder': 2,
         'node/prefer-global/url-search-params': 2,
         'node/prefer-global/url': 2,
+        'node/prefer-promises/dns': 2,
+        'node/prefer-promises/fs': 2,
 
         // promise
         'promise/no-callback-in-promise': 2,
