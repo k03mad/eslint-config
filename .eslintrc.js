@@ -65,21 +65,21 @@ module.exports = {
 
         // jsdoc
         'jsdoc/check-alignment': 2,
+        'jsdoc/check-indentation': 2,
         'jsdoc/check-param-names': 2,
         'jsdoc/check-tag-names': 2,
         'jsdoc/check-types': 2,
         'jsdoc/newline-after-description': [2, 'never'],
         'jsdoc/no-undefined-types': 2,
+        'jsdoc/require-hyphen-before-param-description': [2, 'never'],
         'jsdoc/require-jsdoc': 2,
         'jsdoc/require-param-name': 2,
         'jsdoc/require-param-type': 2,
         'jsdoc/require-param': 2,
+        'jsdoc/require-returns-check': 2,
         'jsdoc/require-returns-type': 2,
         'jsdoc/require-returns': 2,
         'jsdoc/valid-types': 2,
-        'jsodc/check-indentation': 2,
-        'jsodc/require-hyphen-before-param-description': [2, 'never'],
-        'jsodc/require-returns-check': 2,
 
         // eslint modified
         'arrow-parens': [2, 'as-needed'],
