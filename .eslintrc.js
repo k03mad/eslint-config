@@ -134,6 +134,7 @@ module.exports = {
         'no-unused-expressions': 0,
         'object-property-newline': 0,
         'prefer-named-capture-group': 0,
+        'require-atomic-updates': 0,
         'require-unicode-regexp': 0,
         'sort-keys': 0,
         'wrap-regex': 0,
