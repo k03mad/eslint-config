@@ -1,30 +1,32 @@
 module.exports = {
 
-    'env': {
+    env: {
         'browser': true,
         'es6': true,
         'mocha': true,
         'node': true,
     },
-    'extends': [
+    extends: [
         'eslint:all',
         'plugin:node/recommended',
         'plugin:promise/recommended',
+        'plugin:sonarjs/recommended',
         'plugin:unicorn/recommended',
     ],
-    'parserOptions': {
+    parserOptions: {
         'sourceType': 'script',
     },
-    'plugins': [
+    plugins: [
         'const-case',
         'jsdoc',
         'node',
         'optimize-regex',
         'promise',
+        'sonarjs',
         'sort-requires',
         'unicorn',
     ],
-    'rules': {
+    rules: {
         // const-case
         'const-case/uppercase': 2,
 

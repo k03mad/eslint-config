@@ -15,6 +15,7 @@ npm i --save-dev \
   eslint-plugin-node \
   eslint-plugin-optimize-regex \
   eslint-plugin-promise \
+  eslint-plugin-sonarjs \
   eslint-plugin-sort-requires \
   eslint-plugin-unicorn
 ```
