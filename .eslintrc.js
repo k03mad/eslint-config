@@ -36,6 +36,9 @@ module.exports = {
         // sort-requires
         'sort-requires/sort-requires': 2,
 
+        // sonarjs
+        'sonarjs/cognitive-complexity': 0,
+
         // node
         'node/exports-style': 2,
         'node/no-missing-import': 2,
