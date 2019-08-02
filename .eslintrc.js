@@ -76,7 +76,7 @@ module.exports = {
         'jsdoc/newline-after-description': [2, 'never'],
         'jsdoc/no-undefined-types': 2,
         'jsdoc/require-hyphen-before-param-description': [2, 'never'],
-        'jsdoc/require-jsdoc': [2, {"require":{"FunctionExpression":true,"FunctionDeclaration":true,"ArrowFunctionExpression":true}}],
+        'jsdoc/require-jsdoc': [2, {'require': {'FunctionExpression': true, 'FunctionDeclaration': true, 'ArrowFunctionExpression': true}}],
         'jsdoc/require-param-name': 2,
         'jsdoc/require-param-type': 2,
         'jsdoc/require-param': 2,
