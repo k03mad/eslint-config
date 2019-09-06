@@ -6,6 +6,7 @@ module.exports = {
         'mocha': true,
         'node': true,
     },
+
     extends: [
         'eslint:all',
         'plugin:node/recommended',
@@ -13,9 +14,11 @@ module.exports = {
         'plugin:sonarjs/recommended',
         'plugin:unicorn/recommended',
     ],
+
     parserOptions: {
         'sourceType': 'script',
     },
+
     plugins: [
         'const-case',
         'jsdoc',
@@ -26,6 +29,7 @@ module.exports = {
         'sort-requires',
         'unicorn',
     ],
+
     rules: {
         // const-case
         'const-case/uppercase': 2,
@@ -109,6 +113,7 @@ module.exports = {
         'array-element-newline': 0,
         'capitalized-comments': 0,
         'complexity': 0,
+        'function-call-argument-newline': 0,
         'function-paren-newline': 0,
         'global-require': 0,
         'guard-for-in': 0,
