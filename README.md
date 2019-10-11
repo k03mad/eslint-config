@@ -22,8 +22,8 @@ npm i --save-dev \
 
 # Use
 
-.eslintrc.js
-
 ```(js)
+// .eslintrc.js
+
 module.exports = {extends: 'k03mad'};
 ```
