@@ -19,3 +19,11 @@ npm i --save-dev \
   eslint-plugin-sort-requires \
   eslint-plugin-unicorn
 ```
+
+# Use
+
+project/.eslintrc.js
+
+```(js)
+module.exports = {extends: 'k03mad'};
+```
