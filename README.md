@@ -6,13 +6,13 @@
 
 # Install
 
-```(bash)
+```bash
 npm i --save-dev eslint eslint-config-k03mad
 ```
 
 # Use
 
-```(javascript)
+```javascript
 // .eslintrc.js
 
 require('eslint-config-k03mad/patch');
