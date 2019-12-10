@@ -6,7 +6,7 @@
 
 # Install
 
-```(bash)
+```bash
 npm i --save-dev \
   eslint \
   eslint-config-k03mad \
@@ -22,7 +22,7 @@ npm i --save-dev \
 
 # Use
 
-```(js)
+```javascript
 // .eslintrc.js
 
 module.exports = {extends: 'k03mad'};
