@@ -130,6 +130,7 @@ module.exports = {
         'no-await-in-loop': 0,
         'no-confusing-arrow': 0,
         'no-console': 0,
+        'no-continue': 0,
         'no-magic-numbers': 0,
         'no-param-reassign': 0,
         'no-plusplus': 0,
