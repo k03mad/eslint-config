@@ -23,7 +23,6 @@ module.exports = {
         'const-case',
         'jsdoc',
         'node',
-        'optimize-regex',
         'promise',
         'sonarjs',
         'sort-requires',
@@ -33,9 +32,6 @@ module.exports = {
     rules: {
         // const-case
         'const-case/uppercase': 2,
-
-        // optimize-regex
-        'optimize-regex/optimize-regex': 2,
 
         // sort-requires
         'sort-requires/sort-requires': 2,
