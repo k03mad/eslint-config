@@ -65,7 +65,6 @@ module.exports = {
         'unicorn/filename-case': 0,
         'unicorn/no-process-exit': 0,
         'unicorn/no-unused-properties': 2,
-        'unicorn/prefer-replace-all': 2,
         'unicorn/prevent-abbreviations': 0,
 
         // jsdoc
