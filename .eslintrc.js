@@ -100,6 +100,7 @@ module.exports = {
         'operator-linebreak': [2, 'before'],
         'padded-blocks': [2, {'classes': 'always', 'switches': 'never'}],
         'padding-line-between-statements': [2, {'blankLine': 'always', 'prev': '*', 'next': 'multiline-block-like'}, {'blankLine': 'always', 'prev': 'multiline-block-like', 'next': '*'}, {'blankLine': 'always', 'prev': 'cjs-import', 'next': '*'}, {'blankLine': 'never', 'prev': 'cjs-import', 'next': 'cjs-import'}],
+        'prefer-const': [2, {'destructuring': 'all'}],
         'quote-props': [2, 'consistent-as-needed'],
         'quotes': [2, 'single', {'avoidEscape': true}],
         'radix': [2, 'as-needed'],
