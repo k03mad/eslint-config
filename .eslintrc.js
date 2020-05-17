@@ -66,6 +66,7 @@ module.exports = {
         'unicorn/no-fn-reference-in-iterator': 0,
         'unicorn/no-null': 0,
         'unicorn/no-process-exit': 0,
+        'unicorn/no-reduce': 0,
         'unicorn/no-unused-properties': 2,
         'unicorn/prevent-abbreviations': 0,
 
