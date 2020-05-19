@@ -20,7 +20,6 @@ module.exports = {
     },
 
     plugins: [
-        'const-case',
         'jsdoc',
         'node',
         'promise',
@@ -30,9 +29,6 @@ module.exports = {
     ],
 
     rules: {
-        // const-case
-        'const-case/uppercase': 2,
-
         // sort-requires
         'sort-requires/sort-requires': 2,
 
