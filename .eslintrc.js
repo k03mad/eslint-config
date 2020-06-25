@@ -132,6 +132,7 @@ module.exports = {
         'no-plusplus': 0,
         'no-process-env': 0,
         'no-process-exit': 0,
+        'no-promise-executor-return': 0,
         'no-ternary': 0,
         'no-unused-expressions': 0,
         'object-property-newline': 0,
