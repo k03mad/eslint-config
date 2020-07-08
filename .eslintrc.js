@@ -127,6 +127,7 @@ module.exports = {
         'no-confusing-arrow': 0,
         'no-console': 0,
         'no-continue': 0,
+        'no-invalid-this': 0,
         'no-magic-numbers': 0,
         'no-param-reassign': 0,
         'no-plusplus': 0,
