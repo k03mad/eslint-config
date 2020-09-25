@@ -59,6 +59,7 @@ module.exports = {
         'unicorn/catch-error-name': [2, {'name': 'err'}],
         'unicorn/custom-error-definition': 2,
         'unicorn/filename-case': 0,
+        'unicorn/import-style': 0,
         'unicorn/no-fn-reference-in-iterator': 0,
         'unicorn/no-null': 0,
         'unicorn/no-process-exit': 0,
