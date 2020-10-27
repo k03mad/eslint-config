@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-k03mad",
-  "version": "5.0.4",
+  "version": "5.1.0",
   "description": "My ESLint config",
   "keywords": [
     "eslint",
@@ -12,13 +12,13 @@
   "main": ".eslintrc.js",
   "repository": "k03mad/eslint-config-k03mad",
   "peerDependencies": {
-    "eslint": ">=7.9.0",
-    "eslint-plugin-jsdoc": ">=30.5.2",
+    "eslint": ">=7.12.1",
+    "eslint-plugin-jsdoc": ">=30.7.3",
     "eslint-plugin-node": ">=11.1.0",
     "eslint-plugin-promise": ">=4.2.1",
     "eslint-plugin-sonarjs": ">=0.5.0",
     "eslint-plugin-sort-requires": ">=2.1.0",
-    "eslint-plugin-unicorn": ">=22.0.0"
+    "eslint-plugin-unicorn": ">=23.0.0"
   },
   "license": "Unlicense"
 }
