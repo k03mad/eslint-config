@@ -34,6 +34,7 @@ module.exports = {
 
         // sonarjs
         'sonarjs/cognitive-complexity': 0,
+        'sonarjs/no-duplicate-string': [2, 5],
 
         // node
         'node/exports-style': 2,
