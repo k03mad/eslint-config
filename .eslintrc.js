@@ -11,7 +11,6 @@ module.exports = {
         'eslint:all',
         'plugin:node/recommended',
         'plugin:promise/recommended',
-        'plugin:sonarjs/recommended',
         'plugin:unicorn/recommended',
     ],
 
@@ -31,10 +30,6 @@ module.exports = {
     rules: {
         // sort-requires
         'sort-requires/sort-requires': 2,
-
-        // sonarjs
-        'sonarjs/cognitive-complexity': 0,
-        'sonarjs/no-duplicate-string': [2, 5],
 
         // node
         'node/exports-style': 2,
