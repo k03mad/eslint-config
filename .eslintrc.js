@@ -22,7 +22,6 @@ module.exports = {
         'jsdoc',
         'node',
         'promise',
-        'sonarjs',
         'sort-requires',
         'unicorn',
     ],
