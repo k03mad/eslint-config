@@ -7,7 +7,6 @@ npm i --save-dev \
   eslint-plugin-jsdoc \
   eslint-plugin-node \
   eslint-plugin-promise \
-  eslint-plugin-sonarjs \
   eslint-plugin-sort-requires \
   eslint-plugin-unicorn
 ```
