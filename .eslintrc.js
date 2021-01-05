@@ -55,6 +55,7 @@ module.exports = {
         'unicorn/custom-error-definition': 2,
         'unicorn/filename-case': 0,
         'unicorn/import-style': 0,
+        'unicorn/no-array-callback-reference': 0,
         'unicorn/no-array-reduce': 0,
         'unicorn/no-null': 0,
         'unicorn/no-process-exit': 0,
