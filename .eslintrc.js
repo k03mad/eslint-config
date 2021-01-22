@@ -56,6 +56,7 @@ module.exports = {
         'unicorn/filename-case': 0,
         'unicorn/import-style': 0,
         'unicorn/no-array-callback-reference': 0,
+        'unicorn/no-array-for-each': 0,
         'unicorn/no-array-reduce': 0,
         'unicorn/no-null': 0,
         'unicorn/no-process-exit': 0,
