@@ -61,6 +61,7 @@ module.exports = {
         'unicorn/no-null': 0,
         'unicorn/no-process-exit': 0,
         'unicorn/no-unused-properties': 2,
+        'unicorn/prefer-regexp-test': 0,
         'unicorn/prevent-abbreviations': 0,
 
         // jsdoc
