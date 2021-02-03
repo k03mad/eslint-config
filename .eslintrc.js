@@ -125,6 +125,7 @@ module.exports = {
         'no-console': 0,
         'no-continue': 0,
         'no-control-regex': 0,
+        'no-div-regex': 0,
         'no-invalid-this': 0,
         'no-magic-numbers': 0,
         'no-param-reassign': 0,
