@@ -3,7 +3,7 @@
 ```bash
 npm i --save-dev \
   eslint \
-  eslint-config-k03mad \
+  @k03mad/eslint-config \
   eslint-plugin-jsdoc \
   eslint-plugin-node \
   eslint-plugin-promise \
@@ -16,5 +16,5 @@ npm i --save-dev \
 ```javascript
 // .eslintrc.js
 
-module.exports = {extends: 'k03mad'};
+module.exports = {extends: '@k03mad'};
 ```
