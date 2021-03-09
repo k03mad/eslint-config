@@ -1,15 +1,11 @@
 {
-  "name": "eslint-config-k03mad",
-  "version": "7.0.3",
+  "name": "@k03mad/eslint-config",
+  "version": "8.0.0",
   "description": "My ESLint config",
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
   "maintainers": [
     "Kirill Molchanov <k03.mad@gmail.com>"
   ],
   "main": ".eslintrc.js",
-  "repository": "k03mad/eslint-config-k03mad",
-  "license": "Unlicense"
+  "repository": "k03mad/eslint-config",
+  "license": "MIT"
 }
