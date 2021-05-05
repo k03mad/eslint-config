@@ -32,6 +32,7 @@ module.exports = {
 
         // node
         'node/exports-style': 2,
+        'node/no-missing-import': 0,
         'node/no-missing-import': 2,
         'node/prefer-global/buffer': 2,
         'node/prefer-global/console': 2,
