@@ -32,7 +32,7 @@ module.exports = {
 
         // node
         'node/exports-style': 2,
-        'node/no-missing-import': 2,
+        'node/no-missing-import': 0,
         'node/prefer-global/buffer': 2,
         'node/prefer-global/console': 2,
         'node/prefer-global/process': 2,
@@ -61,6 +61,7 @@ module.exports = {
         'unicorn/no-null': 0,
         'unicorn/no-process-exit': 0,
         'unicorn/no-unused-properties': 2,
+        'unicorn/prefer-module': 0,
         'unicorn/prefer-regexp-test': 0,
         'unicorn/prevent-abbreviations': 0,
 
