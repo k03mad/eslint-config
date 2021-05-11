@@ -91,6 +91,7 @@ module.exports = {
         'indent': [2, 4, {SwitchCase: 1}],
         'lines-around-comment': [2, {afterBlockComment: false, allowObjectEnd: false, allowBlockEnd: false, allowArrayEnd: false}],
         'no-empty': [2, {allowEmptyCatch: true}],
+        'no-extra-parens': [2, 'all', {nestedBinaryExpressions: true}],
         'no-inner-declarations': [2, 'both'],
         'no-multiple-empty-lines': [2, {max: 1, maxBOF: 0}],
         'one-var': [2, {uninitialized: 'always'}],
