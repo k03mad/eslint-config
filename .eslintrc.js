@@ -64,6 +64,7 @@ module.exports = {
         'unicorn/prefer-module': 0,
         'unicorn/prefer-regexp-test': 0,
         'unicorn/prevent-abbreviations': 0,
+        'unicorn/require-array-join-separator': 0,
 
         // jsdoc
         'jsdoc/check-alignment': 2,
