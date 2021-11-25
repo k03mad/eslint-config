@@ -110,6 +110,7 @@ module.exports = {
         'array-element-newline': 0,
         'capitalized-comments': 0,
         'complexity': 0,
+        'consistent-return': 0,
         'function-call-argument-newline': 0,
         'function-paren-newline': 0,
         'global-require': 0,
