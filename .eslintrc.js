@@ -10,7 +10,6 @@ module.exports = {
     extends: [
         'eslint:all',
         'plugin:node/recommended',
-        'plugin:promise/recommended',
         'plugin:unicorn/recommended',
     ],
 
@@ -21,7 +20,6 @@ module.exports = {
     plugins: [
         'jsdoc',
         'node',
-        'promise',
         'sort-requires',
         'unicorn',
     ],
@@ -42,13 +40,6 @@ module.exports = {
         'node/prefer-global/url': 2,
         'node/prefer-promises/dns': 2,
         'node/prefer-promises/fs': 2,
-
-        // promise
-        'promise/no-callback-in-promise': 2,
-        'promise/no-nesting': 2,
-        'promise/no-new-statics': 2,
-        'promise/no-promise-in-callback': 2,
-        'promise/no-return-in-finally': 2,
 
         // unicorn
         'unicorn/catch-error-name': [2, {name: 'err'}],

@@ -6,12 +6,11 @@ npm i --save-dev \
   @k03mad/eslint-config \
   eslint-plugin-jsdoc \
   eslint-plugin-node \
-  eslint-plugin-promise \
   eslint-plugin-sort-requires \
   eslint-plugin-unicorn
 ```
 
-# Use
+## Use
 
 ```javascript
 // .eslintrc.js
