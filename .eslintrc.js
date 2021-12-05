@@ -8,19 +8,31 @@ module.exports = {
 
     extends: [
         'eslint:all',
+        'plugin:import/errors',
         'plugin:node/recommended',
         'plugin:unicorn/recommended',
     ],
 
     parserOptions: {
-        sourceType: 'script',
+        sourceType: 'module',
     },
 
-    plugins: ['jsdoc', 'node', 'sort-requires', 'unicorn'],
+    plugins: [
+        'jsdoc',
+        'import',
+        'node',
+        'sort-requires',
+        'simple-import-sort',
+        'unicorn',
+    ],
 
     rules: {
         // sort-requires
         'sort-requires/sort-requires': 2,
+
+        // simple-import-sort
+        'simple-import-sort/imports': 'error',
+        'simple-import-sort/exports': 'error',
 
         // node
         'node/exports-style': 2,
@@ -128,10 +140,6 @@ module.exports = {
         'quote-props': [2, 'consistent-as-needed'],
         'quotes': [2, 'single', {avoidEscape: true}],
         'radix': [2, 'as-needed'],
-        'sort-imports': [
-            2,
-            {memberSyntaxSortOrder: ['none', 'all', 'single', 'multiple']},
-        ],
         'space-before-function-paren': [
             2,
             {anonymous: 'never', named: 'never', asyncArrow: 'always'},
@@ -175,6 +183,7 @@ module.exports = {
         'prefer-named-capture-group': 0,
         'require-atomic-updates': 0,
         'require-unicode-regexp': 0,
+        'sort-imports': 0,
         'sort-keys': 0,
         'wrap-regex': 0,
     },
