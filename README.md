@@ -5,15 +5,19 @@ npm i --save-dev \
   eslint \
   @k03mad/eslint-config \
   eslint-plugin-jsdoc \
+  eslint-plugin-import \
   eslint-plugin-node \
+  eslint-plugin-simple-import-sort \
   eslint-plugin-sort-requires \
   eslint-plugin-unicorn
 ```
 
 ## Use
 
-```javascript
-// .eslintrc.js
+```json
+// .eslintrc.json
 
-module.exports = {extends: '@k03mad'};
+{
+  "extends": "@k03mad"
+}
 ```
