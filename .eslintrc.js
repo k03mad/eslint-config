@@ -1,5 +1,4 @@
 module.exports = {
-
     env: {
         browser: true,
         es6: true,
@@ -17,12 +16,7 @@ module.exports = {
         sourceType: 'script',
     },
 
-    plugins: [
-        'jsdoc',
-        'node',
-        'sort-requires',
-        'unicorn',
-    ],
+    plugins: ['jsdoc', 'node', 'sort-requires', 'unicorn'],
 
     rules: {
         // sort-requires
@@ -66,7 +60,20 @@ module.exports = {
         'jsdoc/newline-after-description': [2, 'never'],
         'jsdoc/no-undefined-types': 2,
         'jsdoc/require-hyphen-before-param-description': [2, 'never'],
-        'jsdoc/require-jsdoc': [2, {require: {ArrowFunctionExpression: true, ClassDeclaration: true, ClassExpression: true, FunctionDeclaration: true, FunctionExpression: true, MethodDefinition: true}, publicOnly: true}],
+        'jsdoc/require-jsdoc': [
+            2,
+            {
+                require: {
+                    ArrowFunctionExpression: true,
+                    ClassDeclaration: true,
+                    ClassExpression: true,
+                    FunctionDeclaration: true,
+                    FunctionExpression: true,
+                    MethodDefinition: true,
+                },
+                publicOnly: true,
+            },
+        ],
         'jsdoc/require-param-name': 2,
         'jsdoc/require-param-type': 2,
         'jsdoc/require-param': 2,
@@ -78,11 +85,28 @@ module.exports = {
         // eslint modified
         'arrow-parens': [2, 'as-needed'],
         'camelcase': [2, {properties: 'never', ignoreDestructuring: true}],
-        'comma-dangle': [2, {arrays: 'always-multiline', objects: 'always-multiline', imports: 'always-multiline', exports: 'always-multiline', functions: 'always-multiline'}],
+        'comma-dangle': [
+            2,
+            {
+                arrays: 'always-multiline',
+                objects: 'always-multiline',
+                imports: 'always-multiline',
+                exports: 'always-multiline',
+                functions: 'always-multiline',
+            },
+        ],
         'dot-location': [2, 'property'],
         'func-names': [2, 'never'],
         'indent': [2, 4, {SwitchCase: 1}],
-        'lines-around-comment': [2, {afterBlockComment: false, allowObjectEnd: false, allowBlockEnd: false, allowArrayEnd: false}],
+        'lines-around-comment': [
+            2,
+            {
+                afterBlockComment: false,
+                allowObjectEnd: false,
+                allowBlockEnd: false,
+                allowArrayEnd: false,
+            },
+        ],
         'no-empty': [2, {allowEmptyCatch: true}],
         'no-extra-parens': [2, 'all', {nestedBinaryExpressions: false}],
         'no-inner-declarations': [2, 'both'],
@@ -90,12 +114,28 @@ module.exports = {
         'one-var': [2, {uninitialized: 'always'}],
         'operator-linebreak': [2, 'before'],
         'padded-blocks': [2, {classes: 'always', switches: 'never'}],
-        'padding-line-between-statements': [2, {blankLine: 'always', prev: '*', next: 'multiline-block-like'}, {blankLine: 'always', prev: 'multiline-block-like', next: '*'}, {blankLine: 'always', prev: 'cjs-import', next: '*'}, {blankLine: 'never', prev: 'cjs-import', next: 'cjs-import'}, {blankLine: 'always', prev: 'import', next: '*'}, {blankLine: 'never', prev: 'import', next: 'import'}, {blankLine: 'always', prev: 'export', next: '*'}],
+        'padding-line-between-statements': [
+            2,
+            {blankLine: 'always', prev: '*', next: 'multiline-block-like'},
+            {blankLine: 'always', prev: 'multiline-block-like', next: '*'},
+            {blankLine: 'always', prev: 'cjs-import', next: '*'},
+            {blankLine: 'never', prev: 'cjs-import', next: 'cjs-import'},
+            {blankLine: 'always', prev: 'import', next: '*'},
+            {blankLine: 'never', prev: 'import', next: 'import'},
+            {blankLine: 'always', prev: 'export', next: '*'},
+        ],
         'prefer-const': [2, {destructuring: 'all'}],
         'quote-props': [2, 'consistent-as-needed'],
         'quotes': [2, 'single', {avoidEscape: true}],
         'radix': [2, 'as-needed'],
-        'space-before-function-paren': [2, {anonymous: 'never', named: 'never', asyncArrow: 'always'}],
+        'sort-imports': [
+            2,
+            {memberSyntaxSortOrder: ['none', 'all', 'single', 'multiple']},
+        ],
+        'space-before-function-paren': [
+            2,
+            {anonymous: 'never', named: 'never', asyncArrow: 'always'},
+        ],
 
         // eslint off
         'array-element-newline': 0,
@@ -138,5 +178,4 @@ module.exports = {
         'sort-keys': 0,
         'wrap-regex': 0,
     },
-
 };
