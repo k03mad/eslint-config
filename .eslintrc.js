@@ -27,12 +27,15 @@ module.exports = {
     ],
 
     rules: {
-        // sort-requires
-        'sort-requires/sort-requires': 2,
+        // import
+        'import/no-unresolved': 0,
 
         // simple-import-sort
         'simple-import-sort/imports': 'error',
         'simple-import-sort/exports': 'error',
+
+        // sort-requires
+        'sort-requires/sort-requires': 2,
 
         // node
         'node/exports-style': 2,
