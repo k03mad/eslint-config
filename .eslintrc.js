@@ -27,9 +27,6 @@ module.exports = {
     ],
 
     rules: {
-        // import
-        'import/no-unresolved': 0,
-
         // simple-import-sort
         'simple-import-sort/imports': 'error',
         'simple-import-sort/exports': 'error',
