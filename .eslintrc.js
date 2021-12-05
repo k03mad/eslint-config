@@ -27,9 +27,12 @@ module.exports = {
     ],
 
     rules: {
+        // import
+        'import/no-unresolved': [2, {ignore: ['^node:']}],
+
         // simple-import-sort
-        'simple-import-sort/imports': 'error',
-        'simple-import-sort/exports': 'error',
+        'simple-import-sort/imports': 2,
+        'simple-import-sort/exports': 2,
 
         // sort-requires
         'sort-requires/sort-requires': 2,
