@@ -7,6 +7,7 @@ npm i --save-dev \
   eslint-plugin-jsdoc \
   eslint-plugin-import \
   eslint-plugin-node \
+  eslint-plugin-simple-import-sort \
   eslint-plugin-sort-destructure-keys \
   eslint-plugin-unicorn
 ```
