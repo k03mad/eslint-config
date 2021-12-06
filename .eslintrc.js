@@ -32,16 +32,19 @@ module.exports = {
         'import/extensions': [
             2,
             {
-              "ignorePackages": true,
-              "pattern": {
-                "js": "always"
-              }
-            }
+                ignorePackages: true,
+                pattern: {
+                    js: 'always',
+                },
+            },
         ],
         'import/first': 2,
         'import/namespace': [2, {allowComputed: true}],
-        "import/newline-after-import": 2,
-        'import/no-unresolved': [2, {ignore: ['^node:', '^chalk$']}],
+        'import/newline-after-import': 2,
+        'import/no-unresolved': [
+            2,
+            {ignore: ['^node:', '^chalk$', '^p-queue$']},
+        ],
 
         // sort-destructure-keys
         'sort-destructure-keys/sort-destructure-keys': 2,
@@ -200,4 +203,4 @@ module.exports = {
         'sort-keys': 0,
         'wrap-regex': 0,
     },
-}
+};
