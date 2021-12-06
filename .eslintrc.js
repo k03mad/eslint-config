@@ -29,7 +29,7 @@ module.exports = {
     rules: {
         // import
         'import/namespace': [2, {allowComputed: true}],
-        'import/no-unresolved': [2, {ignore: ['^node:']}],
+        'import/no-unresolved': [2, {ignore: ['^node:', '^chalk$']}],
 
         // simple-import-sort
         'simple-import-sort/imports': 2,
