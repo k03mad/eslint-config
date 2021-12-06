@@ -8,6 +8,7 @@ npm i --save-dev \
   eslint-plugin-import \
   eslint-plugin-node \
   eslint-plugin-simple-import-sort \
+  eslint-plugin-sort-destructure-keys \
   eslint-plugin-sort-requires \
   eslint-plugin-unicorn
 ```

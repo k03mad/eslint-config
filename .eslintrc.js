@@ -21,6 +21,7 @@ module.exports = {
         'jsdoc',
         'import',
         'node',
+        'sort-destructure-keys',
         'sort-requires',
         'simple-import-sort',
         'unicorn',
@@ -34,6 +35,9 @@ module.exports = {
         // simple-import-sort
         'simple-import-sort/imports': 2,
         'simple-import-sort/exports': 2,
+
+        // sort-destructure-keys
+        'sort-destructure-keys/sort-destructure-keys': 2,
 
         // sort-requires
         'sort-requires/sort-requires': 2,
