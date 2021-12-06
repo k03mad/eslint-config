@@ -22,7 +22,6 @@ module.exports = {
         'import',
         'node',
         'sort-destructure-keys',
-        'simple-import-sort',
         'unicorn',
     ],
 
@@ -39,10 +38,6 @@ module.exports = {
         'import/namespace': [2, {allowComputed: true}],
         'import/no-unresolved': [2, {ignore: ['^node:', '^chalk$']}],
         'import/order': 2,
-
-        // simple-import-sort
-        'simple-import-sort/imports': 2,
-        'simple-import-sort/exports': 2,
 
         // sort-destructure-keys
         'sort-destructure-keys/sort-destructure-keys': 2,
