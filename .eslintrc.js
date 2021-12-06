@@ -32,11 +32,15 @@ module.exports = {
         'import/extensions': [
             2,
             {
-                js: 'always',
-            },
+              "ignorePackages": true,
+              "pattern": {
+                "js": "always"
+              }
+            }
         ],
         'import/first': 2,
         'import/namespace': [2, {allowComputed: true}],
+        "import/newline-after-import": 2,
         'import/no-unresolved': [2, {ignore: ['^node:', '^chalk$']}],
 
         // sort-destructure-keys
@@ -142,9 +146,6 @@ module.exports = {
             2,
             {blankLine: 'always', prev: '*', next: 'multiline-block-like'},
             {blankLine: 'always', prev: 'multiline-block-like', next: '*'},
-            {blankLine: 'always', prev: 'import', next: 'block-like'},
-            {blankLine: 'always', prev: 'import', next: 'let'},
-            {blankLine: 'always', prev: 'import', next: 'const'},
             {blankLine: 'always', prev: 'cjs-import', next: '*'},
             {blankLine: 'never', prev: 'cjs-import', next: 'cjs-import'},
         ],
