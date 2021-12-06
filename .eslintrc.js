@@ -135,7 +135,7 @@ module.exports = {
             {blankLine: 'always', prev: '*', next: 'multiline-block-like'},
             {blankLine: 'always', prev: 'multiline-block-like', next: '*'},
             {blankLine: 'always', prev: 'cjs-import', next: '*'},
-            {blankLine: 'always', prev: 'import', next: 'block'},
+            {blankLine: 'always', prev: 'import', next: 'block-like'},
             {blankLine: 'never', prev: 'cjs-import', next: 'cjs-import'},
         ],
         'prefer-const': [2, {destructuring: 'all'}],
