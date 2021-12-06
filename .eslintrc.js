@@ -22,15 +22,23 @@ module.exports = {
         'import',
         'node',
         'sort-destructure-keys',
-        'sort-requires',
         'simple-import-sort',
         'unicorn',
     ],
 
     rules: {
         // import
+        'import/exports-last': 2,
+        'import/extensions': [
+            2,
+            {
+                js: 'ignorePackages',
+            },
+        ],
+        'import/first': 2,
         'import/namespace': [2, {allowComputed: true}],
         'import/no-unresolved': [2, {ignore: ['^node:', '^chalk$']}],
+        'import/order': 2,
 
         // simple-import-sort
         'simple-import-sort/imports': 2,
@@ -38,9 +46,6 @@ module.exports = {
 
         // sort-destructure-keys
         'sort-destructure-keys/sort-destructure-keys': 2,
-
-        // sort-requires
-        'sort-requires/sort-requires': 2,
 
         // node
         'node/exports-style': 2,
@@ -195,4 +200,4 @@ module.exports = {
         'sort-keys': 0,
         'wrap-regex': 0,
     },
-};
+}
