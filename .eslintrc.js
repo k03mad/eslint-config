@@ -43,7 +43,7 @@ module.exports = {
         'import/newline-after-import': 2,
         'import/no-unresolved': [
             2,
-            {ignore: ['^node:', '^chalk$', '^p-queue$']},
+            {ignore: ['^node:', '^chalk$', '^p-queue$', '^got$']},
         ],
 
         // sort-destructure-keys
