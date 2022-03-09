@@ -7,11 +7,5 @@
   ],
   "main": ".eslintrc.js",
   "repository": "k03mad/eslint-config",
-  "license": "MIT",
-  "devDependencies": {
-    "prettier": "2.5.1"
-  },
-  "scripts": {
-    "prettier": "prettier --single-quote --tab-width 4 --quote-props consistent --no-bracket-spacing --arrow-parens avoid --loglevel error --write .eslintrc.js"
-  }
+  "license": "MIT"
 }
