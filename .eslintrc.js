@@ -10,7 +10,7 @@ module.exports = {
         'eslint:all',
         'plugin:import/errors',
         'plugin:node/recommended',
-        'plugin:unicorn/recommended',
+        'plugin:unicorn/all',
     ],
 
     parserOptions: {
@@ -68,7 +68,6 @@ module.exports = {
 
         // unicorn
         'unicorn/catch-error-name': ['error', {name: 'err'}],
-        'unicorn/custom-error-definition': 'error',
         'unicorn/filename-case': 'off',
         'unicorn/import-style': 'off',
         'unicorn/no-array-callback-reference': 'off',
@@ -76,7 +75,7 @@ module.exports = {
         'unicorn/no-array-reduce': 'off',
         'unicorn/no-null': 'off',
         'unicorn/no-process-exit': 'off',
-        'unicorn/no-unused-properties': 'error',
+        'unicorn/prefer-at': 'error',
         'unicorn/prefer-module': 'off',
         'unicorn/prefer-regexp-test': 'off',
         'unicorn/prevent-abbreviations': 'off',
