@@ -78,6 +78,7 @@ module.exports = {
         'unicorn/no-unsafe-regex': 'off',
         'unicorn/prefer-module': 'off',
         'unicorn/prefer-regexp-test': 'off',
+        'unicorn/prefer-top-level-await': 'off',
         'unicorn/prevent-abbreviations': 'off',
         'unicorn/require-array-join-separator': 'off',
 
