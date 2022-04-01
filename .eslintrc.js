@@ -69,6 +69,7 @@ module.exports = {
         // unicorn
         'unicorn/catch-error-name': ['error', {name: 'err'}],
         'unicorn/filename-case': 'off',
+        'unicorn/import-index': 'off',
         'unicorn/import-style': 'off',
         'unicorn/no-array-callback-reference': 'off',
         'unicorn/no-array-for-each': 'off',
