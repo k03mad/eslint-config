@@ -75,7 +75,7 @@ module.exports = {
         'unicorn/no-array-reduce': 'off',
         'unicorn/no-null': 'off',
         'unicorn/no-process-exit': 'off',
-        'unicorn/prefer-at': 'error',
+        'unicorn/no-unsafe-regex': 'off',
         'unicorn/prefer-module': 'off',
         'unicorn/prefer-regexp-test': 'off',
         'unicorn/prevent-abbreviations': 'off',
