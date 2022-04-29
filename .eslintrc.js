@@ -192,7 +192,6 @@ module.exports = {
         'newline-per-chained-call': 'off',
         'no-await-in-loop': 'off',
         'no-confusing-arrow': 'off',
-        'no-console': 'off',
         'no-continue': 'off',
         'no-control-regex': 'off',
         'no-div-regex': 'off',
