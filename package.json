@@ -1,6 +1,6 @@
 {
   "name": "@k03mad/eslint-config",
-  "version": "11.0.4",
+  "version": "11.0.5",
   "description": "My ESLint config",
   "maintainers": [
     "Kirill Molchanov <k03.mad@gmail.com>"
