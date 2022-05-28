@@ -163,6 +163,7 @@ module.exports = {
             {blankLine: 'never', prev: 'cjs-import', next: 'cjs-import'},
         ],
         'prefer-const': ['error', {destructuring: 'all'}],
+        'prefer-destructuring': ['error', {object: true, array: false}],
         'quote-props': ['error', 'consistent-as-needed'],
         'quotes': ['error', 'single', {avoidEscape: true}],
         'radix': ['error', 'as-needed'],
