@@ -114,6 +114,11 @@ module.exports = {
         // 'jsdoc/require-returns-type': 'error',
         // 'jsdoc/require-returns': 'error',
         // 'jsdoc/valid-types': 'error',
+        // jsdoc
+        'jsdoc/newline-after-description': ['error', 'never'],
+        'jsdoc/require-param-description': 'off',
+        'jsdoc/require-property-description': 'off',
+        'jsdoc/require-returns-description': 'off',
 
         // eslint modified
         'arrow-parens': ['error', 'as-needed'],
