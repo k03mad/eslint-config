@@ -85,36 +85,20 @@ module.exports = {
         'unicorn/require-array-join-separator': 'off',
 
         // jsdoc
-        // 'jsdoc/check-alignment': 'error',
-        // 'jsdoc/check-indentation': 'error',
-        // 'jsdoc/check-param-names': 'error',
-        // 'jsdoc/check-tag-names': 'error',
-        // 'jsdoc/check-types': 'error',
-        // 'jsdoc/newline-after-description': ['error', 'never'],
-        // 'jsdoc/no-undefined-types': 'error',
-        // 'jsdoc/require-hyphen-before-param-description': ['error', 'never'],
-        // 'jsdoc/require-jsdoc': [
-        //     'error',
-        //     {
-        //         require: {
-        //             ArrowFunctionExpression: true,
-        //             ClassDeclaration: true,
-        //             ClassExpression: true,
-        //             FunctionDeclaration: true,
-        //             FunctionExpression: true,
-        //             MethodDefinition: true,
-        //         },
-        //         publicOnly: true,
-        //     },
-        // ],
-        // 'jsdoc/require-param-name': 'error',
-        // 'jsdoc/require-param-type': 'error',
-        // 'jsdoc/require-param': 'error',
-        // 'jsdoc/require-returns-check': 'error',
-        // 'jsdoc/require-returns-type': 'error',
-        // 'jsdoc/require-returns': 'error',
-        // 'jsdoc/valid-types': 'error',
-        // jsdoc
+        'jsdoc/require-jsdoc': [
+            'error',
+            {
+                require: {
+                    ArrowFunctionExpression: true,
+                    ClassDeclaration: true,
+                    ClassExpression: true,
+                    FunctionDeclaration: true,
+                    FunctionExpression: true,
+                    MethodDefinition: true,
+                },
+                publicOnly: true,
+            },
+        ],
         'jsdoc/newline-after-description': ['error', 'never'],
         'jsdoc/require-param-description': 'off',
         'jsdoc/require-property-description': 'off',
