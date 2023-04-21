@@ -1,17 +1,7 @@
 module.exports = {
     env: {
-        browser: true,
-        es6: true,
-        mocha: true,
         node: true,
-    },
-
-    globals: {
-        // https://github.com/google/zx
-        $: true,
-        fs: true,
-        YAML: true,
-        // ----------------------------
+        es2021: true,
     },
 
     extends: [
