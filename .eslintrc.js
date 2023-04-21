@@ -195,6 +195,7 @@ module.exports = {
         'no-promise-executor-return': 'off',
         'no-ternary': 'off',
         'no-unused-expressions': 'off',
+        'node/shebang': 'off',
         'object-property-newline': 'off',
         'prefer-named-capture-group': 'off',
         'require-atomic-updates': 'off',
