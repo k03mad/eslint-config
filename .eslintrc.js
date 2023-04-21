@@ -1,10 +1,10 @@
 module.exports = {
     env: {
-        browser: false,
-        es6: false,
-        mocha: false,
-        node: false,
-        $: false,
+        browser: true,
+        es6: true,
+        mocha: true,
+        node: true,
+        $: true,
     },
 
     extends: [
