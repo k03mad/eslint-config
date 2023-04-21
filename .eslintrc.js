@@ -4,7 +4,12 @@ module.exports = {
         es6: true,
         mocha: true,
         node: true,
-        $: true,
+    },
+
+    globals: {
+        // https://github.com/google/zx
+        $: true
+        // ----------------------------
     },
 
     extends: [
