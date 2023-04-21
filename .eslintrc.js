@@ -1,9 +1,10 @@
 module.exports = {
     env: {
-        browser: true,
-        es6: true,
-        mocha: true,
-        node: true,
+        browser: false,
+        es6: false,
+        mocha: false,
+        node: false,
+        $: false,
     },
 
     extends: [
@@ -99,7 +100,6 @@ module.exports = {
                 publicOnly: true,
             },
         ],
-        'jsdoc/newline-after-description': ['error', 'never'],
         'jsdoc/require-param-description': 'off',
         'jsdoc/require-property-description': 'off',
         'jsdoc/require-returns-description': 'off',
