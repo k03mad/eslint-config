@@ -8,7 +8,9 @@ module.exports = {
 
     globals: {
         // https://github.com/google/zx
-        $: true
+        $: true,
+        fs: true,
+        YAML: true,
         // ----------------------------
     },
 
