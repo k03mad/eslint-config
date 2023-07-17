@@ -8,7 +8,7 @@ module.exports = {
         'eslint:all',
         'plugin:import/errors',
         'plugin:jsdoc/recommended',
-        'plugin:node/recommended',
+        'plugin:n/recommended',
         'plugin:unicorn/all',
     ],
 
@@ -19,7 +19,7 @@ module.exports = {
     plugins: [
         'jsdoc',
         'import',
-        'node',
+        'n',
         'simple-import-sort',
         'sort-destructure-keys',
         'unicorn',
