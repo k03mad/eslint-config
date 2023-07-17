@@ -135,7 +135,7 @@ module.exports = {
         'no-multiple-empty-lines': ['error', {max: 1, maxBOF: 0}],
         'one-var': ['error', {uninitialized: 'always'}],
         'operator-linebreak': ['error', 'before'],
-        'padded-blocks': ['error', {classes: 'always', switches: 'never'}],
+        'padded-blocks': ['error', {classes: 'always', switches: 'never', blocks: 'never'}],
         'padding-line-between-statements': [
             'error',
             {blankLine: 'always', prev: '*', next: 'multiline-block-like'},
