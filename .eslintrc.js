@@ -162,6 +162,7 @@ module.exports = {
         // eslint off
         'array-element-newline': 'off',
         'capitalized-comments': 'off',
+        'class-methods-use-this': 'off',
         'complexity': 'off',
         'consistent-return': 'off',
         'function-call-argument-newline': 'off',
