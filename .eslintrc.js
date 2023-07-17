@@ -193,6 +193,7 @@ module.exports = {
         'no-process-exit': 'off',
         'no-promise-executor-return': 'off',
         'no-ternary': 'off',
+        'no-underscore-dangle': 'off',
         'no-unused-expressions': 'off',
         'node/shebang': 'off',
         'object-property-newline': 'off',
