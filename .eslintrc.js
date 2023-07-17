@@ -64,6 +64,7 @@ module.exports = {
         'n/prefer-promises/dns': 'error',
         'n/prefer-promises/fs': 'error',
         'n/no-missing-import': 'off',
+        'n/no-process-exit': 'off',
 
         // unicorn
         'unicorn/catch-error-name': ['error', {name: 'err'}],
