@@ -19,9 +19,6 @@ jobs:
       - name: Install NodeJS
         uses: actions/setup-node@v3
 
-      - name: Install dependencies
-        run: npm ci
-
       - name: Set credentials
         run: git config user.email "auto@action.autoaction_1" && git config user.name "Action"
 

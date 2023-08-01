@@ -106,7 +106,10 @@ module.exports = {
         'arrow-parens': ['error', 'as-needed'],
         'camelcase': [
             'error',
-            {properties: 'never', ignoreDestructuring: true},
+            {
+                properties: 'never',
+                ignoreDestructuring: true
+            },
         ],
         'comma-dangle': [
             'error',
