@@ -7,7 +7,7 @@ module.exports = {
     extends: [
         'eslint:all',
         'plugin:import/errors',
-        'plugin:jsdoc/recommended',
+        'plugin:jsdoc/recommended-error',
         'plugin:n/recommended',
         'plugin:unicorn/all',
     ],
