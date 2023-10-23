@@ -137,6 +137,7 @@ module.exports = {
                 allowArrayEnd: false,
             },
         ],
+        'new-cap': ['error', {properties: false}],
         'no-empty': ['error', {allowEmptyCatch: true}],
         'no-extra-parens': ['error', 'all', {nestedBinaryExpressions: false}],
         'no-inner-declarations': ['error', 'both'],
