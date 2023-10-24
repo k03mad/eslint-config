@@ -99,12 +99,13 @@ module.exports = {
                 exemptEmptyConstructors: true,
             },
         ],
-        'jsdoc/no-blank-block-descriptions': 'error',
         'jsdoc/check-indentation': 'error',
         'jsdoc/check-line-alignment': 'error',
+        'jsdoc/no-blank-block-descriptions': 'error',
         'jsdoc/require-param-description': 'off',
         'jsdoc/require-property-description': 'off',
         'jsdoc/require-returns-description': 'off',
+        'jsdoc/require-returns': 'off',
 
         // eslint modified
         'arrow-parens': ['error', 'as-needed'],
