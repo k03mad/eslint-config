@@ -183,6 +183,7 @@ module.exports = {
         'init-declarations': 'off',
         'max-depth': 'off',
         'max-len': 'off',
+        'max-lines': 'off',
         'max-lines-per-function': 'off',
         'max-params': 'off',
         'max-statements': 'off',
