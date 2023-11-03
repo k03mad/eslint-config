@@ -27,7 +27,6 @@ module.exports = {
 
     rules: {
         // import
-        'import/exports-last': 'error',
         'import/extensions': [
             'error',
             {
