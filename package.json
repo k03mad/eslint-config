@@ -6,6 +6,8 @@
     "Kirill Molchanov <k03.mad@gmail.com>"
   ],
   "main": ".eslintrc.js",
-  "repository": "k03mad/eslint-config",
+  "repository": {
+    "url": "git+https://github.com/k03mad/eslint-config.git"
+  },
   "license": "MIT"
 }
