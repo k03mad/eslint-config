@@ -165,6 +165,7 @@ module.exports = {
         '@stylistic/array-element-newline': 'off',
         '@stylistic/function-call-argument-newline': 'off',
         '@stylistic/max-len': 'off',
+        '@stylistic/multiline-ternary': 'off',
         '@stylistic/object-property-newline': 'off',
 
         // eslint
@@ -185,8 +186,15 @@ module.exports = {
         'radix': ['error', 'as-needed'],
 
         // eslint off
+        'consistent-return': 'off',
+        'id-length': 'off',
+        'no-await-in-loop': 'off',
         'no-magic-numbers': 'off',
+        'no-plusplus': 'off',
+        'no-promise-executor-return': 'off',
+        'no-ternary': 'off',
         'prefer-named-capture-group': 'off',
         'require-unicode-regexp': 'off',
+        'sort-keys': 'off',
     },
 };
