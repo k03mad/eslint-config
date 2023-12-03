@@ -167,6 +167,8 @@ module.exports = {
         '@stylistic/function-paren-newline': 'off',
         '@stylistic/max-len': 'off',
         '@stylistic/multiline-ternary': 'off',
+        '@stylistic/newline-per-chained-call': 'off',
+        '@stylistic/no-confusing-arrow': 'off',
         '@stylistic/object-property-newline': 'off',
 
         // eslint
@@ -190,6 +192,7 @@ module.exports = {
         'capitalized-comments': 'off',
         'consistent-return': 'off',
         'id-length': 'off',
+        'init-declarations': 'off',
         'max-lines-per-function': 'off',
         'max-params': 'off',
         'max-statements': 'off',
