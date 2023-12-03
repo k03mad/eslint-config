@@ -189,6 +189,7 @@ module.exports = {
         'consistent-return': 'off',
         'id-length': 'off',
         'no-await-in-loop': 'off',
+        'capitalized-comments': 'off',
         'no-magic-numbers': 'off',
         'no-plusplus': 'off',
         'no-promise-executor-return': 'off',
@@ -196,5 +197,7 @@ module.exports = {
         'prefer-named-capture-group': 'off',
         'require-unicode-regexp': 'off',
         'sort-keys': 'off',
+        'max-lines-per-function': 'off',
+        'sort-imports': 'off',
     },
 };
