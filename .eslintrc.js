@@ -194,6 +194,7 @@ module.exports = {
         'consistent-return': 'off',
         'id-length': 'off',
         'init-declarations': 'off',
+        'max-lines': 'off',
         'max-lines-per-function': 'off',
         'max-params': 'off',
         'max-statements': 'off',
