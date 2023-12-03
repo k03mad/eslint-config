@@ -4,6 +4,7 @@
 npm i --save-dev \
   eslint \
   @k03mad/eslint-config \
+  @stylistic/eslint-plugin \
   eslint-plugin-jsdoc \
   eslint-plugin-import \
   eslint-plugin-n \

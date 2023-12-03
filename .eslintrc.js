@@ -6,6 +6,7 @@ module.exports = {
 
     extends: [
         'eslint:all',
+        'plugin:@stylistic/all-extends',
         'plugin:import/errors',
         'plugin:jsdoc/recommended-error',
         'plugin:n/recommended',
@@ -17,6 +18,7 @@ module.exports = {
     },
 
     plugins: [
+        '@stylistic',
         'jsdoc',
         'import',
         'n',
@@ -106,16 +108,9 @@ module.exports = {
         'jsdoc/require-returns-description': 'off',
         'jsdoc/require-returns': 'off',
 
-        // eslint modified
-        'arrow-parens': ['error', 'as-needed'],
-        'camelcase': [
-            'error',
-            {
-                properties: 'never',
-                ignoreDestructuring: true
-            },
-        ],
-        'comma-dangle': [
+        // stylistic
+        '@stylistic/arrow-parens': ['error', 'as-needed'],
+        '@stylistic/comma-dangle': [
             'error',
             {
                 arrays: 'always-multiline',
@@ -125,10 +120,9 @@ module.exports = {
                 functions: 'always-multiline',
             },
         ],
-        'dot-location': ['error', 'property'],
-        'func-names': ['error', 'never'],
-        'indent': ['error', 4, {SwitchCase: 1}],
-        'lines-around-comment': [
+        '@stylistic/dot-location': ['error', 'property'],
+        '@stylistic/indent': ['error', 4, {SwitchCase: 1}],
+        '@stylistic/lines-around-comment': [
             'error',
             {
                 afterBlockComment: false,
@@ -137,15 +131,11 @@ module.exports = {
                 allowArrayEnd: false,
             },
         ],
-        'new-cap': ['error', {properties: false}],
-        'no-empty': ['error', {allowEmptyCatch: true}],
-        'no-extra-parens': ['error', 'all', {nestedBinaryExpressions: false}],
-        'no-inner-declarations': ['error', 'both'],
-        'no-multiple-empty-lines': ['error', {max: 1, maxBOF: 0}],
-        'one-var': ['error', {uninitialized: 'always'}],
-        'operator-linebreak': ['error', 'before'],
-        'padded-blocks': ['error', {classes: 'always', switches: 'never', blocks: 'never'}],
-        'padding-line-between-statements': [
+        '@stylistic/no-extra-parens': ['error', 'all', {nestedBinaryExpressions: false}],
+        '@stylistic/no-multiple-empty-lines': ['error', {max: 1, maxBOF: 0}],
+        '@stylistic/operator-linebreak': ['error', 'before'],
+        '@stylistic/padded-blocks': ['error', {classes: 'always', switches: 'never', blocks: 'never'}],
+        '@stylistic/padding-line-between-statements': [
             'error',
             {blankLine: 'always', prev: '*', next: 'multiline-block-like'},
             {blankLine: 'always', prev: 'multiline-block-like', next: '*'},
@@ -158,60 +148,28 @@ module.exports = {
             {blankLine: 'always', prev: 'cjs-import', next: '*'},
             {blankLine: 'never', prev: 'cjs-import', next: 'cjs-import'},
         ],
-        'prefer-const': ['error', {destructuring: 'all'}],
-        'prefer-destructuring': ['error', {object: true, array: false}],
-        'quote-props': ['error', 'consistent-as-needed'],
-        'quotes': ['error', 'single', {avoidEscape: true}],
-        'radix': ['error', 'as-needed'],
-        'space-before-function-paren': [
+        '@stylistic/quote-props': ['error', 'consistent-as-needed'],
+        '@stylistic/quotes': ['error', 'single', {avoidEscape: true}],
+        '@stylistic/space-before-function-paren': [
             'error',
             {anonymous: 'never', named: 'never', asyncArrow: 'always'},
         ],
 
-        // eslint off
-        'array-element-newline': 'off',
-        'capitalized-comments': 'off',
-        'class-methods-use-this': 'off',
-        'complexity': 'off',
-        'consistent-return': 'off',
-        'function-call-argument-newline': 'off',
-        'function-paren-newline': 'off',
-        'global-require': 'off',
-        'guard-for-in': 'off',
-        'id-length': 'off',
-        'init-declarations': 'off',
-        'max-depth': 'off',
-        'max-len': 'off',
-        'max-lines': 'off',
-        'max-lines-per-function': 'off',
-        'max-params': 'off',
-        'max-statements': 'off',
-        'multiline-comment-style': 'off',
-        'multiline-ternary': 'off',
-        'newline-per-chained-call': 'off',
-        'no-await-in-loop': 'off',
-        'no-confusing-arrow': 'off',
-        'no-continue': 'off',
-        'no-control-regex': 'off',
-        'no-div-regex': 'off',
-        'no-invalid-this': 'off',
-        'no-magic-numbers': 'off',
-        'no-param-reassign': 'off',
-        'no-plusplus': 'off',
-        'no-process-env': 'off',
-        'no-process-exit': 'off',
-        'no-promise-executor-return': 'off',
-        'no-ternary': 'off',
-        'no-undefined': 'off',
-        'no-underscore-dangle': 'off',
-        'no-unused-expressions': 'off',
-        'node/shebang': 'off',
-        'object-property-newline': 'off',
-        'prefer-named-capture-group': 'off',
-        'require-atomic-updates': 'off',
-        'require-unicode-regexp': 'off',
-        'sort-imports': 'off',
-        'sort-keys': 'off',
-        'wrap-regex': 'off',
+        // eslint
+        'camelcase': [
+            'error',
+            {
+                properties: 'never',
+                ignoreDestructuring: true
+            },
+        ],
+        'func-names': ['error', 'never'],
+        'new-cap': ['error', {properties: false}],
+        'no-empty': ['error', {allowEmptyCatch: true}],
+        'no-inner-declarations': ['error', 'both'],
+        'one-var': ['error', {uninitialized: 'always'}],
+        'prefer-const': ['error', {destructuring: 'all'}],
+        'prefer-destructuring': ['error', {object: true, array: false}],
+        'radix': ['error', 'as-needed'],
     },
 };
