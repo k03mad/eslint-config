@@ -64,11 +64,15 @@ module.exports = {
         'n/prefer-global/url': 'error',
         'n/prefer-promises/dns': 'error',
         'n/prefer-promises/fs': 'error',
+
+        // n off
         'n/no-missing-import': 'off',
         'n/no-process-exit': 'off',
 
         // unicorn
         'unicorn/catch-error-name': ['error', {name: 'err'}],
+
+        // unicorn off
         'unicorn/filename-case': 'off',
         'unicorn/import-index': 'off',
         'unicorn/import-style': 'off',
@@ -103,6 +107,8 @@ module.exports = {
         'jsdoc/check-indentation': 'error',
         'jsdoc/check-line-alignment': 'error',
         'jsdoc/no-blank-block-descriptions': 'error',
+
+        // jsdoc off
         'jsdoc/require-param-description': 'off',
         'jsdoc/require-property-description': 'off',
         'jsdoc/require-returns-description': 'off',
@@ -155,6 +161,12 @@ module.exports = {
             {anonymous: 'never', named: 'never', asyncArrow: 'always'},
         ],
 
+        // stylistic off
+        '@stylistic/array-element-newline': 'off',
+        '@stylistic/function-call-argument-newline': 'off',
+        '@stylistic/max-len': 'off',
+        '@stylistic/object-property-newline': 'off',
+
         // eslint
         'camelcase': [
             'error',
@@ -171,5 +183,10 @@ module.exports = {
         'prefer-const': ['error', {destructuring: 'all'}],
         'prefer-destructuring': ['error', {object: true, array: false}],
         'radix': ['error', 'as-needed'],
+
+        // eslint off
+        'no-magic-numbers': 'off',
+        'prefer-named-capture-group': 'off',
+        'require-unicode-regexp': 'off',
     },
 };
