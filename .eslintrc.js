@@ -202,6 +202,7 @@ module.exports = {
         'no-plusplus': 'off',
         'no-promise-executor-return': 'off',
         'no-ternary': 'off',
+        'no-underscore-dangle': 'off',
         'no-unused-expressions': 'off',
         'prefer-named-capture-group': 'off',
         'require-unicode-regexp': 'off',
