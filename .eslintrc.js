@@ -164,6 +164,7 @@ module.exports = {
         // stylistic off
         '@stylistic/array-element-newline': 'off',
         '@stylistic/function-call-argument-newline': 'off',
+        '@stylistic/function-paren-newline': 'off',
         '@stylistic/max-len': 'off',
         '@stylistic/multiline-ternary': 'off',
         '@stylistic/object-property-newline': 'off',
@@ -186,18 +187,19 @@ module.exports = {
         'radix': ['error', 'as-needed'],
 
         // eslint off
+        'capitalized-comments': 'off',
         'consistent-return': 'off',
         'id-length': 'off',
+        'max-lines-per-function': 'off',
+        'max-params': 'off',
         'no-await-in-loop': 'off',
-        'capitalized-comments': 'off',
         'no-magic-numbers': 'off',
         'no-plusplus': 'off',
         'no-promise-executor-return': 'off',
         'no-ternary': 'off',
         'prefer-named-capture-group': 'off',
         'require-unicode-regexp': 'off',
-        'sort-keys': 'off',
-        'max-lines-per-function': 'off',
         'sort-imports': 'off',
+        'sort-keys': 'off',
     },
 };
