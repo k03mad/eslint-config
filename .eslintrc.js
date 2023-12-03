@@ -190,6 +190,7 @@ module.exports = {
 
         // eslint off
         'capitalized-comments': 'off',
+        'class-methods-use-this': 'off',
         'consistent-return': 'off',
         'id-length': 'off',
         'init-declarations': 'off',
