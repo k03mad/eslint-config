@@ -128,7 +128,7 @@ module.exports = {
         ],
         '@stylistic/dot-location': ['error', 'property'],
         '@stylistic/indent': ['error', 4, {SwitchCase: 1}],
-        'indent-binary-ops': ['error', 4],
+        '@stylistic/indent-binary-ops': ['error', 4],
         '@stylistic/lines-around-comment': [
             'error',
             {
