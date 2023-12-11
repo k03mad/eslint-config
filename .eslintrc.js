@@ -130,6 +130,7 @@ module.exports = {
         'capitalized-comments': 'off',
         'class-methods-use-this': 'off',
         'consistent-return': 'off',
+        'guard-for-in': 'off',
         'id-length': 'off',
         'init-declarations': 'off',
         'max-lines-per-function': 'off',
