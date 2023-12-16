@@ -80,6 +80,7 @@ module.exports = {
         // jsdoc
         'jsdoc/check-indentation': 'error',
         'jsdoc/check-line-alignment': 'error',
+        'jsdoc/check-param-names': ['error', {'disableExtraPropertyReporting': true}],
         'jsdoc/no-blank-block-descriptions': 'error',
         'jsdoc/require-jsdoc': ['error', {require: {ArrowFunctionExpression: true, ClassDeclaration: true, ClassExpression: true, FunctionDeclaration: true, FunctionExpression: true, MethodDefinition: true}, publicOnly: true, exemptEmptyConstructors: true}],
 
@@ -139,6 +140,7 @@ module.exports = {
         'max-statements': 'off',
         'multiline-comment-style': 'off',
         'no-await-in-loop': 'off',
+        'no-continue': 'off',
         'no-magic-numbers': 'off',
         'no-param-reassign': 'off',
         'no-plusplus': 'off',
