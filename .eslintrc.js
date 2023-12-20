@@ -33,7 +33,7 @@ module.exports = {
         'import/first': 'error',
         'import/namespace': ['error', {allowComputed: true}],
         'import/newline-after-import': 'error',
-        // 'import/no-unresolved': ['error', {ignore: ['^node:', '^chalk$', '^p-queue$', '^got$']}],
+        'import/no-unresolved': ['error', {ignore: ['^p-queue$', '^got$']}],
 
         // sort-destructure-keys
         'sort-destructure-keys/sort-destructure-keys': 'error',
