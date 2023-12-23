@@ -10,6 +10,7 @@ module.exports = {
         'plugin:import/errors',
         'plugin:jsdoc/recommended-error',
         'plugin:n/recommended',
+        'plugin:sonarjs/recommended',
         'plugin:unicorn/all'
     ],
 
@@ -23,6 +24,7 @@ module.exports = {
         'import',
         'n',
         'simple-import-sort',
+        'sonarjs',
         'sort-destructure-keys',
         'unicorn'
     ],
