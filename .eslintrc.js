@@ -9,7 +9,7 @@ module.exports = {
         'plugin:@stylistic/all-extends',
         'plugin:import/errors',
         'plugin:jsdoc/recommended-error',
-        'plugin:n/recommended',
+        'plugin:n/recommended-module',
         'plugin:sonarjs/recommended',
         'plugin:unicorn/all'
     ],
@@ -23,7 +23,6 @@ module.exports = {
         'import',
         'jsdoc',
         'n',
-        'simple-import-sort',
         'sonarjs',
         'unicorn'
     ],
@@ -35,26 +34,14 @@ module.exports = {
         'import/namespace': ['error', {allowComputed: true}],
         'import/newline-after-import': 'error',
         'import/no-unresolved': ['error', {ignore: ['^p-queue$', '^got$']}],
-
-        // simple-import-sort
-        'simple-import-sort/exports': 'error',
-        'simple-import-sort/imports': 'error',
-
-        // n
-        'n/exports-style': 'error',
-        'n/prefer-global/buffer': 'error',
-        'n/prefer-global/console': 'error',
-        'n/prefer-global/process': 'error',
-        'n/prefer-global/text-decoder': 'error',
-        'n/prefer-global/text-encoder': 'error',
-        'n/prefer-global/url-search-params': 'error',
-        'n/prefer-global/url': 'error',
-        'n/prefer-promises/dns': 'error',
-        'n/prefer-promises/fs': 'error',
+        'import/order': ['error', {'newlines-between': 'always'}],
 
         // n off
-        'n/no-missing-import': 'off',
         'n/no-process-exit': 'off',
+
+        // sonarjs off
+        'sonarjs/cognitive-complexity': 'off',
+        'sonarjs/no-nested-template-literals': 'off',
 
         // unicorn
         'unicorn/catch-error-name': ['error', {name: 'err'}],

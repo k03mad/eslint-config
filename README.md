@@ -8,7 +8,6 @@ npm i --save-dev \
   eslint-plugin-jsdoc \
   eslint-plugin-import \
   eslint-plugin-n \
-  eslint-plugin-simple-import-sort \
   eslint-plugin-sonarjs \
   eslint-plugin-unicorn
 ```
