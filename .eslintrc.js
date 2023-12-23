@@ -20,12 +20,11 @@ module.exports = {
 
     plugins: [
         '@stylistic',
-        'jsdoc',
         'import',
+        'jsdoc',
         'n',
         'simple-import-sort',
         'sonarjs',
-        'sort-destructure-keys',
         'unicorn'
     ],
 
@@ -36,9 +35,6 @@ module.exports = {
         'import/namespace': ['error', {allowComputed: true}],
         'import/newline-after-import': 'error',
         'import/no-unresolved': ['error', {ignore: ['^p-queue$', '^got$']}],
-
-        // sort-destructure-keys
-        'sort-destructure-keys/sort-destructure-keys': 'error',
 
         // simple-import-sort
         'simple-import-sort/exports': 'error',

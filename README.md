@@ -10,7 +10,6 @@ npm i --save-dev \
   eslint-plugin-n \
   eslint-plugin-simple-import-sort \
   eslint-plugin-sonarjs \
-  eslint-plugin-sort-destructure-keys \
   eslint-plugin-unicorn
 ```
 
