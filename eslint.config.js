@@ -1,6 +1,6 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 
-import globals from 'globals';
+// import globals from 'globals';
 import js from '@eslint/js';
 import jsdoc from 'eslint-plugin-jsdoc';
 import n from 'eslint-plugin-n';
@@ -12,11 +12,11 @@ import nosecrets from 'eslint-plugin-no-secrets';
 
 export default [
     {
-        languageOptions: {
-            globals: {
-                ...globals.nodeBuiltin,
-            },
-        },
+        // languageOptions: {
+        //     globals: {
+        //         ...globals.nodeBuiltin,
+        //     },
+        // },
         linterOptions: {
             reportUnusedDisableDirectives: 'error',
         },
