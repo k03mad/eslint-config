@@ -1,4 +1,3 @@
-/* eslint-disable n/no-unpublished-import */
 /* eslint-disable sonarjs/no-duplicate-string */
 
 import globals from 'globals';

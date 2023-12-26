@@ -14,16 +14,18 @@
   "engines": {
     "node": ">=20"
   },
-  "devDependencies": {
+  "dependencies": {
     "@eslint/js": "8.56.0",
     "@stylistic/eslint-plugin": "1.5.1",
-    "eslint": "8.56.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsdoc": "46.9.1",
     "eslint-plugin-n": "16.5.0",
     "eslint-plugin-sonarjs": "0.23.0",
     "eslint-plugin-unicorn": "50.0.1",
-    "globals": "13.24.0",
+    "globals": "13.24.0"
+  },
+  "devDependencies": {
+    "eslint": "8.56.0",
     "husky": "8.0.3"
   },
   "scripts": {
