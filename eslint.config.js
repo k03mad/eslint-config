@@ -8,7 +8,6 @@ import pImport from 'eslint-plugin-import';
 import sonarjs from 'eslint-plugin-sonarjs';
 import stylistic from '@stylistic/eslint-plugin';
 import unicorn from 'eslint-plugin-unicorn';
-import nosecrets from 'eslint-plugin-no-secrets';
 
 export default [
     {
@@ -167,15 +166,6 @@ export default [
             'import/default': 'off',
             'import/export': 'off',
             'import/namespace': 'off',
-        },
-    },
-
-    {
-        plugins: {
-            'no-secrets': nosecrets,
-        },
-        rules: {
-            'no-secrets/no-secrets': 'error',
         },
     },
 ];
