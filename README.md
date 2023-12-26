@@ -1,23 +1,20 @@
 # Install
 
 ```bash
-npm i --save-dev \
-  eslint \
-  @k03mad/eslint-config \
-  @stylistic/eslint-plugin \
-  eslint-plugin-jsdoc \
-  eslint-plugin-import \
-  eslint-plugin-n \
-  eslint-plugin-sonarjs \
-  eslint-plugin-unicorn
+npm i --save-dev eslint @k03mad/eslint-config
 ```
 
 ## Use
 
-```json
-// .eslintrc.json
+```js
+// eslint.config.js
 
+export {default} from '@k03mad/eslint-config';
+```
+
+```json
+// .vscode/settings.json
 {
-  "extends": "@k03mad"
+    "eslint.experimental.useFlatConfig": true
 }
 ```
