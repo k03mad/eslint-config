@@ -156,15 +156,16 @@ export default [
 
             // off
             'import/default': 'off',
+            'import/export': 'off',
             'import/namespace': 'off',
         },
     },
 
     n.configs['flat/recommended-module'], {
         rules: {
-
             // off
             'n/no-process-exit': 'off',
+            'n/no-unpublished-import': 'off',
         },
     },
 ];
