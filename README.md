@@ -1,7 +1,7 @@
 # Install
 
 ```bash
-npm i --save-dev eslint @k03mad/eslint-config
+npm i --save-exact --save-dev eslint @k03mad/eslint-config
 ```
 
 ## Use
@@ -20,7 +20,14 @@ export {default} from '@k03mad/eslint-config';
         "lint:eslint": "eslint ./ --cache",
     }
 }
+```
 
+```json
+// gitignore
+.eslintcache
+```
+
+```json
 // .vscode/settings.json
 {
     "eslint.experimental.useFlatConfig": true
