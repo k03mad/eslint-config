@@ -8,6 +8,7 @@ import pImport from 'eslint-plugin-import';
 import sonarjs from 'eslint-plugin-sonarjs';
 import stylistic from '@stylistic/eslint-plugin';
 import unicorn from 'eslint-plugin-unicorn';
+import nosecrets from 'eslint-plugin-no-secrets';
 
 export default [
     {
@@ -128,6 +129,14 @@ export default [
         },
     },
 
+    n.configs['flat/recommended-module'], {
+        rules: {
+            // off
+            'n/no-process-exit': 'off',
+            'n/no-unpublished-import': 'off',
+        },
+    },
+
     {
         plugins: {
             sonarjs,
@@ -161,11 +170,12 @@ export default [
         },
     },
 
-    n.configs['flat/recommended-module'], {
+    {
+        plugins: {
+            'no-secrets': nosecrets,
+        },
         rules: {
-            // off
-            'n/no-process-exit': 'off',
-            'n/no-unpublished-import': 'off',
+            'no-secrets/no-secrets': 'error',
         },
     },
 ];
