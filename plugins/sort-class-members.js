@@ -11,10 +11,10 @@ export default [
                 {
                     order: [
                         'constructor',
-                        '[conventional-private-properties]',
-                        '[conventional-private-methods]',
                         '[static-properties]',
                         '[static-methods]',
+                        '[conventional-private-properties]',
+                        '[conventional-private-methods]',
                         '[properties]',
                         '[methods]',
                     ],
