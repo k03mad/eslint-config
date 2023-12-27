@@ -30,6 +30,7 @@ export default [
                 '@stylistic/max-len',
                 '@stylistic/multiline-ternary',
                 '@stylistic/newline-per-chained-call',
+                '@stylistic/no-confusing-arrow',
                 '@stylistic/object-property-newline',
             ),
         },

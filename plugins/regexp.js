@@ -12,6 +12,7 @@ export default [
 
             ...turnOff(
                 'regexp/hexadecimal-escape',
+                'regexp/letter-case',
                 'regexp/prefer-named-capture-group',
                 'regexp/require-unicode-regexp',
                 'regexp/require-unicode-sets-regexp',

@@ -12,6 +12,7 @@ export default [
             ...turnOff(
                 'unicorn/no-array-for-each',
                 'unicorn/no-array-reduce',
+                'unicorn/no-null',
                 'unicorn/prevent-abbreviations',
                 'unicorn/require-array-join-separator',
             ),
