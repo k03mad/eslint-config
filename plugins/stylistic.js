@@ -28,6 +28,8 @@ export default [
                 '@stylistic/function-call-argument-newline',
                 '@stylistic/function-paren-newline',
                 '@stylistic/max-len',
+                '@stylistic/multiline-ternary',
+                '@stylistic/newline-per-chained-call',
                 '@stylistic/object-property-newline',
             ),
         },

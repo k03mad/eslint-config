@@ -11,6 +11,8 @@ export default [
             ...regexp.configs.all.rules,
 
             ...turnOff(
+                'regexp/hexadecimal-escape',
+                'regexp/prefer-named-capture-group',
                 'regexp/require-unicode-regexp',
                 'regexp/require-unicode-sets-regexp',
             ),
