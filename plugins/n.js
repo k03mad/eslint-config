@@ -9,7 +9,7 @@ export default [
         rules: {
             ...turnOff(
                 // 'n/no-process-exit',
-                // 'n/no-unpublished-import',
+                'n/no-unpublished-import',
             ),
         },
     },
