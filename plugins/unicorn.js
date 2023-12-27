@@ -13,6 +13,7 @@ export default [
                 'unicorn/no-array-for-each',
                 'unicorn/no-array-reduce',
                 'unicorn/no-null',
+                'unicorn/no-process-exit',
                 'unicorn/prevent-abbreviations',
                 'unicorn/require-array-join-separator',
             ),
