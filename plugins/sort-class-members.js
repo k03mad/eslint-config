@@ -6,7 +6,21 @@ export default [
             'sort-class-members': sortClassMembers,
         },
         rules: {
-            ...sortClassMembers.configs.recommended.rules,
+            'sort-class-members/sort-class-members': [
+                'error',
+                {
+                    order: [
+                        'constructor',
+                        '[conventional-private-properties]',
+                        '[conventional-private-methods]',
+                        '[static-properties]',
+                        '[static-methods]',
+                        '[properties]',
+                        '[methods]',
+                    ],
+                    accessorPairPositioning: 'getThenSet',
+                },
+            ],
         },
     },
 ];

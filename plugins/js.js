@@ -18,6 +18,7 @@ export default [
 
             ...turnOff(
                 'capitalized-comments',
+                'consistent-return',
                 'id-length',
                 'init-declarations',
                 'max-lines-per-function',
@@ -25,6 +26,8 @@ export default [
                 'multiline-comment-style',
                 'no-magic-numbers',
                 'no-param-reassign',
+                'no-plusplus',
+                'no-promise-executor-return',
                 'no-ternary',
                 'no-underscore-dangle',
                 'require-unicode-regexp',
