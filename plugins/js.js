@@ -19,10 +19,12 @@ export default [
 
             ...turnOff(
                 'capitalized-comments',
+                'class-methods-use-this',
                 'consistent-return',
                 'guard-for-in',
                 'id-length',
                 'init-declarations',
+                'max-lines',
                 'max-lines-per-function',
                 'max-params',
                 'max-statements',
