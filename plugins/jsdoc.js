@@ -14,10 +14,9 @@ export default [
             'jsdoc/require-jsdoc': ['error', {require: {ArrowFunctionExpression: true, ClassDeclaration: true, ClassExpression: true, FunctionDeclaration: true, FunctionExpression: true, MethodDefinition: true}, publicOnly: true, exemptEmptyConstructors: true}],
 
             ...turnOff(
-                // 'jsdoc/require-param-description',
-                // 'jsdoc/require-property-description',
-                // 'jsdoc/require-returns-description',
-                // 'jsdoc/require-returns',
+                'jsdoc/require-param-description',
+                'jsdoc/require-returns-description',
+                'jsdoc/require-returns',
             ),
         },
     },

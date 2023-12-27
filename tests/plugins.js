@@ -10,7 +10,7 @@ describe('plugins', () => {
         pluginsIndexFileName: '_index.js',
         pluginsFolderFromRoot: './plugins',
         packageJsonFolderRel: '../package',
-        packageJsonEslintPluginsIncludes: 'eslint-plugin',
+        packageJsonEslintPluginsRe: /eslint-plugin|@eslint\//,
     };
 
     let eslintPlugins, pluginFolderFilesWithoutIndex, pluginsExportedFromIndex;
@@ -31,7 +31,7 @@ describe('plugins', () => {
         const {dependencies} = require(testData.packageJsonFolderRel);
 
         eslintPlugins = Object.keys(dependencies)
-            .filter(elem => elem.includes(testData.packageJsonEslintPluginsIncludes));
+            .filter(elem => testData.packageJsonEslintPluginsRe.test(elem));
     });
 
     it('should have same plugins count at index file and plugins folder', () => {
