@@ -10,6 +10,7 @@ export default [
             'unicorn/catch-error-name': ['error', {name: 'err'}],
 
             ...turnOff(
+                'unicorn/filename-case',
                 'unicorn/no-array-for-each',
                 'unicorn/no-array-reduce',
                 'unicorn/no-null',
