@@ -31,7 +31,6 @@ export default [
                 'multiline-comment-style',
                 'no-await-in-loop',
                 'no-magic-numbers',
-                'no-param-reassign',
                 'no-plusplus',
                 'no-promise-executor-return',
                 'no-ternary',
