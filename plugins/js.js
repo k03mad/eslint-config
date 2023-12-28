@@ -32,6 +32,7 @@ export default [
                 'no-await-in-loop',
                 'no-continue',
                 'no-magic-numbers',
+                'no-param-reassign',
                 'no-plusplus',
                 'no-promise-executor-return',
                 'no-ternary',
