@@ -15,6 +15,7 @@ export default [
                 'regexp/letter-case',
                 'regexp/match-any',
                 'regexp/no-super-linear-move',
+                'regexp/no-unused-capturing-group',
                 'regexp/prefer-named-capture-group',
                 'regexp/require-unicode-regexp',
                 'regexp/require-unicode-sets-regexp',
