@@ -19,7 +19,7 @@
     "@stylistic/eslint-plugin": "1.5.1",
     "eslint-plugin-array-func": "4.0.0",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-jsdoc": "46.9.1",
+    "eslint-plugin-jsdoc": "47.0.2",
     "eslint-plugin-n": "16.5.0",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-regexp": "2.1.2",
