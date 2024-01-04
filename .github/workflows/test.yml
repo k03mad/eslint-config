@@ -29,10 +29,10 @@ jobs:
         run: npm i pnpm -g
 
       - name: Run setup
-        run: pnpm run setup
+        run: npm run setup
 
       - name: Run lint
-        run: pnpm run lint
+        run: npm run lint
 
       - name: Run test
-        run: pnpm run test
+        run: npm run test
