@@ -18,6 +18,7 @@ export default [
             'radix': ['error', 'as-needed'],
 
             ...turnOff(
+                'array-callback-return',
                 'capitalized-comments',
                 'class-methods-use-this',
                 'consistent-return',
