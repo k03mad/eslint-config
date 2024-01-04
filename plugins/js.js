@@ -21,6 +21,7 @@ export default [
                 'array-callback-return',
                 'capitalized-comments',
                 'class-methods-use-this',
+                'complexity',
                 'consistent-return',
                 'guard-for-in',
                 'id-length',
