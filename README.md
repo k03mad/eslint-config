@@ -1,7 +1,7 @@
 # Install
 
 ```bash
-npm i --save-dev --save-exact eslint @k03mad/eslint-config
+pnpm i --save-dev --save-exact eslint @k03mad/eslint-config
 ```
 
 ## Use
