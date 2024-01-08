@@ -7,10 +7,10 @@ import * as plugins from '../plugins/_index.js';
 
 describe('plugins', () => {
     const testData = {
-        pluginsIndexFileName: '_index.js',
-        pluginsFolderFromRoot: './plugins',
-        packageJsonFolderRel: '../package',
         packageJsonEslintPluginsRe: /eslint-plugin|@eslint\//,
+        packageJsonFolderRel: '../package',
+        pluginsFolderFromRoot: './plugins',
+        pluginsIndexFileName: '_index.js',
     };
 
     let eslintPlugins, pluginFolderFilesWithoutIndex, pluginsExportedFromIndex;

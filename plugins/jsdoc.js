@@ -11,7 +11,7 @@ export default [
             'jsdoc/check-line-alignment': 'error',
             'jsdoc/check-param-names': ['error', {disableExtraPropertyReporting: true}],
             'jsdoc/no-blank-block-descriptions': 'error',
-            'jsdoc/require-jsdoc': ['error', {require: {ArrowFunctionExpression: true, ClassDeclaration: true, ClassExpression: true, FunctionDeclaration: true, FunctionExpression: true, MethodDefinition: true}, publicOnly: true, exemptEmptyConstructors: true}],
+            'jsdoc/require-jsdoc': ['error', {exemptEmptyConstructors: true, publicOnly: true, require: {ArrowFunctionExpression: true, ClassDeclaration: true, ClassExpression: true, FunctionDeclaration: true, FunctionExpression: true, MethodDefinition: true}}],
 
             ...turnOff(
                 'jsdoc/require-param-description',

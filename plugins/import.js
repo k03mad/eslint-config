@@ -14,7 +14,7 @@ export default [
             'import/first': 'error',
             'import/newline-after-import': 'error',
             'import/no-unresolved': ['error', {ignore: ['^p-queue$', '^got$']}],
-            'import/order': ['error', {'newlines-between': 'always', 'alphabetize': {order: 'asc'}}],
+            'import/order': ['error', {'alphabetize': {order: 'asc'}, 'newlines-between': 'always'}],
 
             ...turnOff(
                 // https://github.com/import-js/eslint-plugin-import/issues/2556

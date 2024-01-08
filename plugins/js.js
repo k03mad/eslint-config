@@ -4,9 +4,10 @@ import {turnOff} from '../utils/rules.js';
 
 export default [
     js.configs.all,
+
     {
         rules: {
-            'camelcase': ['error', {properties: 'never', ignoreDestructuring: true}],
+            'camelcase': ['error', {ignoreDestructuring: true, properties: 'never'}],
             'func-names': ['error', 'never'],
             'new-cap': ['error', {properties: false}],
             'no-empty': ['error', {allowEmptyCatch: true}],
@@ -14,7 +15,7 @@ export default [
             'no-unused-expressions': ['error', {allowShortCircuit: true}],
             'one-var': ['error', {uninitialized: 'always'}],
             'prefer-const': ['error', {destructuring: 'all'}],
-            'prefer-destructuring': ['error', {object: true, array: false}],
+            'prefer-destructuring': ['error', {array: false, object: true}],
             'radix': ['error', 'as-needed'],
 
             ...turnOff(
