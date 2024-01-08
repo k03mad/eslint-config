@@ -12,6 +12,7 @@ export default [
 
             ...turnOff(
                 'perfectionist/sort-imports',
+                'perfectionist/sort-objects',
             ),
         },
     },
