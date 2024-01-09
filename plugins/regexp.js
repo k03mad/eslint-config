@@ -14,6 +14,7 @@ export default [
                 'regexp/hexadecimal-escape',
                 'regexp/letter-case',
                 'regexp/match-any',
+                'regexp/no-misleading-capturing-group',
                 'regexp/no-super-linear-backtracking',
                 'regexp/no-super-linear-move',
                 'regexp/no-unused-capturing-group',
