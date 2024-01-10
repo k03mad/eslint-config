@@ -18,6 +18,7 @@ export default [
                 'regexp/no-super-linear-backtracking',
                 'regexp/no-super-linear-move',
                 'regexp/no-unused-capturing-group',
+                'regexp/optimal-quantifier-concatenation',
                 'regexp/prefer-named-capture-group',
                 'regexp/require-unicode-regexp',
                 'regexp/require-unicode-sets-regexp',
