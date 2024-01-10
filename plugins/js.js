@@ -41,6 +41,7 @@ export default [
                 'no-ternary',
                 'no-underscore-dangle',
                 'prefer-named-capture-group',
+                'require-atomic-updates',
                 'require-unicode-regexp',
                 'sort-imports',
                 'sort-keys',
