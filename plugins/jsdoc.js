@@ -15,6 +15,7 @@ export default [
 
             ...turnOff(
                 'jsdoc/require-param-description',
+                'jsdoc/require-property-description',
                 'jsdoc/require-returns-description',
                 'jsdoc/require-returns',
             ),
