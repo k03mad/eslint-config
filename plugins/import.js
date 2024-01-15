@@ -13,7 +13,7 @@ export default [
             'import/extensions': ['error', {ignorePackages: true, pattern: {js: 'always'}}],
             'import/first': 'error',
             'import/newline-after-import': 'error',
-            'import/no-unresolved': ['error', {ignore: ['^p-queue$', '^got$']}],
+            'import/no-unresolved': ['error', {ignore: ['^p-queue$', '^got$', '^cacheable-lookup$']}],
             'import/order': ['error', {'alphabetize': {order: 'asc'}, 'newlines-between': 'always'}],
 
             ...turnOff(
