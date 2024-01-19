@@ -39,6 +39,7 @@ export default [
                 'no-plusplus',
                 'no-promise-executor-return',
                 'no-ternary',
+                'no-undefined',
                 'no-underscore-dangle',
                 'prefer-named-capture-group',
                 'require-atomic-updates',
