@@ -16,14 +16,14 @@
   },
   "dependencies": {
     "@eslint/js": "8.56.0",
-    "@stylistic/eslint-plugin": "1.5.3",
+    "@stylistic/eslint-plugin": "1.5.4",
     "eslint-plugin-array-func": "4.0.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsdoc": "48.0.2",
-    "eslint-plugin-n": "16.6.1",
+    "eslint-plugin-n": "16.6.2",
     "eslint-plugin-perfectionist": "2.5.0",
     "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-regexp": "2.1.2",
+    "eslint-plugin-regexp": "2.2.0",
     "eslint-plugin-sonarjs": "0.23.0",
     "eslint-plugin-unicorn": "50.0.1",
     "globals": "13.24.0"
