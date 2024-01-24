@@ -27,6 +27,7 @@ export default [
                 'guard-for-in',
                 'id-length',
                 'init-declarations',
+                'max-depth',
                 'max-lines-per-function',
                 'max-lines',
                 'max-params',
