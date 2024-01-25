@@ -1,12 +1,13 @@
-import globals from 'globals';
-
-import * as plugins from './plugins/_index.js';
+import * as globals from './config/globals/_index.js';
+import * as plugins from './config/plugins/_index.js';
 
 export default [
     {
         languageOptions: {
             globals: {
-                ...globals.nodeBuiltin,
+                ...globals.browser,
+                ...globals.lampa,
+                ...globals.node,
             },
         },
         linterOptions: {

@@ -3,13 +3,13 @@ import fs from 'node:fs/promises';
 import {createRequire} from 'node:module';
 import {describe, it} from 'node:test';
 
-import * as plugins from '../plugins/_index.js';
+import * as plugins from '../config/plugins/_index.js';
 
 describe('plugins', () => {
     const testData = {
         packageJsonEslintPluginsRe: /eslint-plugin|@eslint\//,
         packageJsonFolderRel: '../package',
-        pluginsFolderFromRoot: './plugins',
+        pluginsFolderFromRoot: './config/plugins',
         pluginsIndexFileName: '_index.js',
     };
 
