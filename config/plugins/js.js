@@ -11,6 +11,7 @@ export default [
             'func-names': ['error', 'never'],
             'new-cap': ['error', {properties: false}],
             'no-empty': ['error', {allowEmptyCatch: true}],
+            'no-inline-comments': ['error', {ignorePattern: 'html'}],
             'no-inner-declarations': ['error', 'both'],
             'no-unused-expressions': ['error', {allowShortCircuit: true}],
             'one-var': ['error', {uninitialized: 'always'}],
