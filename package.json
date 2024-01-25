@@ -19,7 +19,7 @@
     "@stylistic/eslint-plugin": "1.5.4",
     "eslint-plugin-array-func": "4.0.0",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-jsdoc": "48.0.2",
+    "eslint-plugin-jsdoc": "48.0.3",
     "eslint-plugin-n": "16.6.2",
     "eslint-plugin-perfectionist": "2.5.0",
     "eslint-plugin-promise": "6.1.1",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "eslint": "8.56.0",
-    "husky": "8.0.3"
+    "husky": "9.0.5"
   },
   "scripts": {
     "lint": "npm run lint:eslint",
@@ -40,6 +40,6 @@
     "clean:modules": "rm -rf ./node_modules || true",
     "clean:eslint:cache": "rm -rf .eslintcache || true",
     "setup": "npm run clean && pnpm i",
-    "prepare": "husky install"
+    "prepare": "husky || true"
   }
 }
