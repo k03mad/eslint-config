@@ -1,6 +1,6 @@
 import regexp from 'eslint-plugin-regexp';
 
-import {turnOff} from '../utils/rules.js';
+import {turnOff} from '../utils.js';
 
 export default [
     {

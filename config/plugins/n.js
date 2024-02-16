@@ -1,6 +1,6 @@
 import n from 'eslint-plugin-n';
 
-import {turnOff} from '../utils/rules.js';
+import {turnOff} from '../utils.js';
 
 export default [
     n.configs['flat/recommended-module'],

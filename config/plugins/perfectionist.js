@@ -1,6 +1,6 @@
 import perfectionist from 'eslint-plugin-perfectionist';
 
-import {turnOff} from '../utils/rules.js';
+import {turnOff} from '../utils.js';
 
 export default [
     {

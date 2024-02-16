@@ -1,6 +1,6 @@
 import unicorn from 'eslint-plugin-unicorn';
 
-import {turnOff} from '../utils/rules.js';
+import {turnOff} from '../utils.js';
 
 export default [
     unicorn.configs['flat/all'],

@@ -1,6 +1,6 @@
 import jsdoc from 'eslint-plugin-jsdoc';
 
-import {turnOff} from '../utils/rules.js';
+import {turnOff} from '../utils.js';
 
 export default [
     jsdoc.configs['flat/recommended-error'],

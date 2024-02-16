@@ -1,6 +1,6 @@
 import arrayFunc from 'eslint-plugin-array-func';
 
-import {turnOff} from '../utils/rules.js';
+import {turnOff} from '../utils.js';
 
 export default [
     {

@@ -1,6 +1,6 @@
 import _import from 'eslint-plugin-import';
 
-import {turnOff} from '../utils/rules.js';
+import {turnOff} from '../utils.js';
 
 export default [
     {

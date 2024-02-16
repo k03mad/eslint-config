@@ -1,7 +1,7 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 import stylistic from '@stylistic/eslint-plugin';
 
-import {turnOff} from '../utils/rules.js';
+import {turnOff} from '../utils.js';
 
 export default [
     stylistic.configs['all-flat'],

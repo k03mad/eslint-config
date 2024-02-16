@@ -1,6 +1,6 @@
 import sonarjs from 'eslint-plugin-sonarjs';
 
-import {turnOff} from '../utils/rules.js';
+import {turnOff} from '../utils.js';
 
 export default [
     {

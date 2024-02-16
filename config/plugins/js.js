@@ -1,6 +1,6 @@
 import js from '@eslint/js';
 
-import {turnOff} from '../utils/rules.js';
+import {turnOff} from '../utils.js';
 
 export default [
     js.configs.all,
