@@ -9,7 +9,6 @@ export default [
         },
         rules: {
             ...arrayFunc.configs.all.rules,
-            ...arrayFunc.configs.recommended.rules,
 
             ...turnOff(
                 'array-func/prefer-array-from',
