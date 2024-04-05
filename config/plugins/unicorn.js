@@ -11,6 +11,7 @@ export default [
 
             ...turnOff(
                 'unicorn/filename-case',
+                'unicorn/no-anonymous-default-export',
                 'unicorn/no-array-callback-reference',
                 'unicorn/no-array-for-each',
                 'unicorn/no-array-reduce',
