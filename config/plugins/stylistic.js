@@ -8,9 +8,12 @@ export default [
 
     {
         rules: {
+            '@stylistic/array-bracket-newline': ['error', 'consistent'],
+            '@stylistic/array-element-newline': ['error', 'consistent'],
             '@stylistic/arrow-parens': ['error', 'as-needed'],
             '@stylistic/comma-dangle': ['error', {arrays: 'always-multiline', exports: 'always-multiline', functions: 'always-multiline', imports: 'always-multiline', objects: 'always-multiline'}],
             '@stylistic/dot-location': ['error', 'property'],
+            '@stylistic/function-call-argument-newline': ['error', 'consistent'],
             '@stylistic/indent': ['error', 4, {SwitchCase: 1}],
             '@stylistic/indent-binary-ops': ['error', 4],
             '@stylistic/lines-around-comment': ['error', {afterBlockComment: false, allowArrayEnd: false, allowBlockEnd: false, allowObjectEnd: false}],
@@ -24,8 +27,6 @@ export default [
             '@stylistic/space-before-function-paren': ['error', {anonymous: 'never', asyncArrow: 'always', named: 'never'}],
 
             ...turnOff(
-                '@stylistic/array-element-newline',
-                '@stylistic/function-call-argument-newline',
                 '@stylistic/function-paren-newline',
                 '@stylistic/max-len',
                 '@stylistic/multiline-ternary',
