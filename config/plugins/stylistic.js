@@ -30,6 +30,7 @@ export default [
                 '@stylistic/function-paren-newline',
                 '@stylistic/max-len',
                 '@stylistic/multiline-ternary',
+                '@stylistic/multiline-comment-style',
                 '@stylistic/newline-per-chained-call',
                 '@stylistic/no-confusing-arrow',
                 '@stylistic/object-property-newline',
