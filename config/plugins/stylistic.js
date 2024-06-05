@@ -8,7 +8,6 @@ export default [
 
     {
         rules: {
-            '@stylistic/array-bracket-newline': ['error', 'consistent'],
             '@stylistic/array-element-newline': ['error', 'consistent'],
             '@stylistic/arrow-parens': ['error', 'as-needed'],
             '@stylistic/comma-dangle': ['error', {arrays: 'always-multiline', exports: 'always-multiline', functions: 'always-multiline', imports: 'always-multiline', objects: 'always-multiline'}],
@@ -19,6 +18,7 @@ export default [
             '@stylistic/lines-around-comment': ['error', {afterBlockComment: false, allowArrayEnd: false, allowBlockEnd: false, allowObjectEnd: false}],
             '@stylistic/no-extra-parens': ['error', 'all', {nestedBinaryExpressions: false}],
             '@stylistic/no-multiple-empty-lines': ['error', {max: 1, maxBOF: 0}],
+            '@stylistic/object-property-newline': ['error', {allowAllPropertiesOnSameLine: true}],
             '@stylistic/operator-linebreak': ['error', 'before'],
             '@stylistic/padded-blocks': ['error', {blocks: 'never', classes: 'always', switches: 'never'}],
             '@stylistic/padding-line-between-statements': ['error', {blankLine: 'always', next: 'multiline-block-like', prev: '*'}, {blankLine: 'always', next: '*', prev: 'multiline-block-like'}, {blankLine: 'always', next: 'multiline-const', prev: '*'}, {blankLine: 'always', next: '*', prev: 'multiline-const'}, {blankLine: 'always', next: 'multiline-expression', prev: '*'}, {blankLine: 'always', next: '*', prev: 'multiline-expression'}, {blankLine: 'always', next: 'multiline-let', prev: '*'}, {blankLine: 'always', next: '*', prev: 'multiline-let'}, {blankLine: 'always', next: '*', prev: 'cjs-import'}, {blankLine: 'never', next: 'cjs-import', prev: 'cjs-import'}],
@@ -33,7 +33,6 @@ export default [
                 '@stylistic/multiline-comment-style',
                 '@stylistic/newline-per-chained-call',
                 '@stylistic/no-confusing-arrow',
-                '@stylistic/object-property-newline',
             ),
         },
     },
