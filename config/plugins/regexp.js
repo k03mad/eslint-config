@@ -3,13 +3,10 @@ import regexp from 'eslint-plugin-regexp';
 import {turnOff} from '../utils.js';
 
 export default [
-    {
-        plugins: {
-            regexp,
-        },
-        rules: {
-            ...regexp.configs.all.rules,
+    regexp.configs['flat/all'],
 
+    {
+        rules: {
             ...turnOff(
                 'regexp/hexadecimal-escape',
                 'regexp/letter-case',
