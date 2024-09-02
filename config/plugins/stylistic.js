@@ -1,4 +1,3 @@
-/* eslint-disable sonarjs/no-duplicate-string */
 import stylistic from '@stylistic/eslint-plugin';
 
 import {turnOff} from '../utils.js';
