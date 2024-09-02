@@ -9,6 +9,7 @@ export default [
         rules: {
             ...turnOff(
                 'sonarjs/cognitive-complexity',
+                'sonarjs/no-hardcoded-ip',
                 'sonarjs/no-nested-template-literals',
             ),
         },
