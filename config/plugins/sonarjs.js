@@ -11,6 +11,7 @@ export default [
                 'sonarjs/cognitive-complexity',
                 'sonarjs/no-hardcoded-ip',
                 'sonarjs/no-nested-template-literals',
+                'sonarjs/pseudo-random',
                 'sonarjs/regex-complexity',
                 'sonarjs/slow-regex',
             ),
