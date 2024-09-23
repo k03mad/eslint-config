@@ -1,5 +1,5 @@
 export {default as arrayFunc} from './array-func.js';
-export {default as import} from './import.js';
+export {default as importX} from './import-x.js';
 export {default as js} from './js.js';
 export {default as jsdoc} from './jsdoc.js';
 export {default as n} from './n.js';
