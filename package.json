@@ -1,6 +1,6 @@
 {
   "name": "@k03mad/eslint-config",
-  "version": "25.5.0",
+  "version": "25.6.0",
   "description": "My ESLint config",
   "maintainers": [
     "Kirill Molchanov <k03.mad@gmail.com>"
@@ -24,9 +24,9 @@
     "eslint-plugin-perfectionist": "3.8.0",
     "eslint-plugin-promise": "7.1.0",
     "eslint-plugin-regexp": "2.6.0",
-    "eslint-plugin-sonarjs": "2.0.2",
+    "eslint-plugin-sonarjs": "2.0.3",
     "eslint-plugin-unicorn": "55.0.0",
-    "globals": "15.9.0"
+    "globals": "15.10.0"
   },
   "devDependencies": {
     "eslint": "8.57.0",
