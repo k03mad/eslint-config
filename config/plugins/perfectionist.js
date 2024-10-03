@@ -8,6 +8,7 @@ export default [
     {
         rules: {
             ...turnOff(
+                'perfectionist/sort-classes',
                 'perfectionist/sort-imports',
                 'perfectionist/sort-objects',
             ),
