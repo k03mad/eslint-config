@@ -26,10 +26,3 @@ export {default} from '@k03mad/eslint-config';
 // gitignore
 .eslintcache
 ```
-
-```json
-// .vscode/settings.json
-{
-    "eslint.experimental.useFlatConfig": true
-}
-```
