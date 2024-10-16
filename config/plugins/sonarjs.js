@@ -16,6 +16,7 @@ export default [
                 'sonarjs/pseudo-random',
                 'sonarjs/regex-complexity',
                 'sonarjs/slow-regex',
+                'sonarjs/x-powered-by',
             ),
         },
     },
