@@ -7,13 +7,13 @@ export default [
 
     {
         languageOptions: {
+            parserOptions: {
+                sourceType: 'module',
+                ecmaVersion: 'latest',
+            },
             globals: {
                 ...globals.browser,
                 ...globals.nodeBuiltin,
-
-                // https://github.com/yumata/lampa-source
-                $: false,
-                Lampa: false,
             },
         },
         linterOptions: {

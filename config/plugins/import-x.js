@@ -13,8 +13,9 @@ export default [
             'import-x/order': ['error', {'alphabetize': {order: 'asc'}, 'newlines-between': 'always'}],
 
             ...turnOff(
-                'import-x/default',
-                'import-x/namespace',
+                // 'import-x/default',
+                // 'import-x/namespace',
+                // 'import-x/no-unresolved',
             ),
         },
     },
