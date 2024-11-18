@@ -3,8 +3,6 @@ import globals from 'globals';
 import * as plugins from './config/plugins/_index.js';
 
 export default [
-    ...Object.values(plugins).flat(),
-
     {
         languageOptions: {
             parserOptions: {
@@ -19,4 +17,6 @@ export default [
             reportUnusedDisableDirectives: 'error',
         },
     },
+
+    ...Object.values(plugins).flat(),
 ];
