@@ -10,6 +10,7 @@ export default [
             'unicorn/catch-error-name': ['error', {name: 'err'}],
 
             ...turnOff(
+                'unicorn/expiring-todo-comments',
                 'unicorn/filename-case',
                 'unicorn/no-anonymous-default-export',
                 'unicorn/no-array-callback-reference',
