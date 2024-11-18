@@ -7,10 +7,6 @@ export default [
 
     {
         languageOptions: {
-            parserOptions: {
-                sourceType: 'module',
-                ecmaVersion: 'latest',
-            },
             globals: {
                 ...globals.browser,
                 ...globals.nodeBuiltin,
