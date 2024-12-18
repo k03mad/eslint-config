@@ -12,6 +12,7 @@ export default [
                 'regexp/letter-case',
                 'regexp/match-any',
                 'regexp/no-misleading-capturing-group',
+                'regexp/no-obscure-range',
                 'regexp/no-super-linear-backtracking',
                 'regexp/no-super-linear-move',
                 'regexp/no-unused-capturing-group',
