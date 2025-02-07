@@ -8,6 +8,7 @@ export default [
     {
         rules: {
             'unicorn/catch-error-name': ['error', {name: 'err'}],
+            'unicorn/prefer-ternary': ['error', 'only-single-line'],
 
             ...turnOff(
                 'unicorn/expiring-todo-comments',
