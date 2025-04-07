@@ -35,6 +35,7 @@ export default [
                 'max-statements',
                 'multiline-comment-style',
                 'no-await-in-loop',
+                'no-console',
                 'no-continue',
                 'no-magic-numbers',
                 'no-param-reassign',
