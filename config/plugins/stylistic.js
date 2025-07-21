@@ -3,7 +3,7 @@ import stylistic from '@stylistic/eslint-plugin';
 import {turnOff} from '../utils.js';
 
 export default [
-    stylistic.configs['all-flat'],
+    stylistic.configs.all,
 
     {
         rules: {
