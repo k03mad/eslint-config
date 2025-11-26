@@ -1,6 +1,6 @@
 {
   "name": "@k03mad/eslint-config",
-  "version": "29.13.5",
+  "version": "29.14.0",
   "description": "My ESLint config",
   "maintainers": [
     "Kirill Molchanov <k03.mad@gmail.com>"
@@ -16,10 +16,10 @@
   },
   "dependencies": {
     "@eslint/js": "9.39.1",
-    "@stylistic/eslint-plugin": "5.5.0",
+    "@stylistic/eslint-plugin": "5.6.1",
     "eslint-plugin-array-func": "5.1.0",
     "eslint-plugin-import-x": "4.16.1",
-    "eslint-plugin-jsdoc": "61.2.1",
+    "eslint-plugin-jsdoc": "61.4.1",
     "eslint-plugin-n": "17.23.1",
     "eslint-plugin-perfectionist": "4.15.1",
     "eslint-plugin-promise": "7.2.1",
