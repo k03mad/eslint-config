@@ -7,7 +7,7 @@ export default [
 
     {
         rules: {
-            'import-x/extensions': ['error', {ignorePackages: true, pattern: {js: 'always'}}],
+            'import-x/extensions': ['error', {ignorePackages: true, pattern: {js: 'always', json: 'always'}}],
             'import-x/first': 'error',
             'import-x/newline-after-import': 'error',
             'import-x/order': ['error', {'alphabetize': {order: 'asc'}, 'newlines-between': 'always'}],
