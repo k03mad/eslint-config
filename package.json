@@ -1,6 +1,6 @@
 {
   "name": "@k03mad/eslint-config",
-  "version": "30.0.1",
+  "version": "31.0.0",
   "description": "My ESLint config",
   "maintainers": [
     "Kirill Molchanov <k03.mad@gmail.com>"
@@ -21,7 +21,7 @@
     "eslint-plugin-import-x": "4.16.1",
     "eslint-plugin-jsdoc": "61.5.0",
     "eslint-plugin-n": "17.23.1",
-    "eslint-plugin-perfectionist": "4.15.1",
+    "eslint-plugin-perfectionist": "5.1.0",
     "eslint-plugin-promise": "7.2.1",
     "eslint-plugin-regexp": "2.10.0",
     "eslint-plugin-unicorn": "62.0.0",
